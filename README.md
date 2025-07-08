@@ -8,11 +8,14 @@ Go to the working directory : (/home/dbhowmik/work/HiggsDalitz/HLLGFinalFits)
 
 Install CMSSW
 
-'''cmsrel CMSSW_11_3_4'''
+```ruby
+cmsrel CMSSW_11_3_4
+```
 
 If cmsrel doesn't work, 
 
-'''source /cvmfs/cms.cern.ch/cmsset_default.sh
+```ruby
+source /cvmfs/cms.cern.ch/cmsset_default.sh
 
 cd CMSSW_11_3_4/src/
 
@@ -23,4 +26,4 @@ gitclone
 cd HLLGFinalFits
 
 source setup.sh
-'''
+```
