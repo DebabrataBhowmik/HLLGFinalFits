@@ -18,12 +18,8 @@ If cmsrel doesn't work,
 source /cvmfs/cms.cern.ch/cmsset_default.sh
 
 cd CMSSW_11_3_4/src/
-
 cmsenv 
-
 gitclone 
-
 cd HLLGFinalFits
-
 source setup.sh
 ```
