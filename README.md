@@ -16,7 +16,8 @@ If cmsrel doesn't work,
 
 ```ruby
 source /cvmfs/cms.cern.ch/cmsset_default.sh
-
+```
+```ruby
 cd CMSSW_11_3_4/src/
 cmsenv 
 gitclone 
