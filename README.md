@@ -20,7 +20,7 @@ source /cvmfs/cms.cern.ch/cmsset_default.sh
 ```ruby
 cd CMSSW_11_3_4/src/
 cmsenv 
-gitclone 
+gitclone git@github.com:DebabrataBhowmik/HLLGFinalFits.git
 cd HLLGFinalFits
 source setup.sh
 ```
