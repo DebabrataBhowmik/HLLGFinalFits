@@ -1,0 +1,19 @@
+130 2018 WH
+{'inDir': '/data3/debabrata/muon/miniTree/', 'inputTreeFiles': {'ggH': ['/data3/debabrata/muon/miniTree/UL2018/miniTree_HDalitz_ggF_mmg_130_UL2018_MuPhoTrig.root'], 'VBF': ['/data3/debabrata/muon/miniTree/UL2018/miniTree_HDalitz_VBF_mmg_130_UL2018_MuPhoTrig.root'], 'WH': ['/data3/debabrata/muon/miniTree/UL2018/miniTree_HDalitz_WH_mmg_130_UL2018_MuPhoTrig.root'], 'ZH': ['/data3/debabrata/muon/miniTree/UL2018/miniTree_HDalitz_ZH_mmg_130_UL2018_MuPhoTrig.root'], 'ttH': ['/data3/debabrata/muon/miniTree/UL2018/miniTree_HDalitz_ttH_mmg_130_UL2018_MuPhoTrig.root'], 'bbH': ['/data3/debabrata/muon/miniTree/UL2018/miniTree_HDalitz_bbH_mmg_130_UL2018_MuPhoTrig.root']}, 'inputTreeName': 'miniTree', 'outputWSFiles': {'ggH': '/home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Tree2WS/WS/2018/signal_ggH_130.root', 'VBF': '/home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Tree2WS/WS/2018/signal_VBF_130.root', 'WH': '/home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Tree2WS/WS/2018/signal_WH_130.root', 'ZH': '/home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Tree2WS/WS/2018/signal_ZH_130.root', 'ttH': '/home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Tree2WS/WS/2018/signal_ttH_130.root', 'bbH': '/home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Tree2WS/WS/2018/signal_bbH_130.root'}, 'sysWeis': ['weight_MuIDDo', 'weight_MuIDUp', 'weight_HLTDo', 'weight_HLTUp', 'weight_L1PFDo', 'weight_L1PFUp', 'weight_MuPFDo', 'weight_MuPFUp', 'weight_PhoIDDo', 'weight_PhoIDUp', 'weight_puweiDo', 'weight_puweiUp'], 'sysHists': ['JERUp', 'JERDo', 'JECUp', 'JECDo', 'MuCalibStat', 'MuCalibZpt', 'MuCalibEwk', 'MuCalibdeltaM', 'MuCalibEwk2', 'PhoNoR9Corr', 'PhoScaleStatUp', 'PhoScaleSystUp', 'PhoScaleGainUp', 'PhoScaleStatDo', 'PhoScaleSystDo', 'PhoScaleGainDo', 'PhoSigmaPhiUp', 'PhoSigmaRhoUp', 'PhoSigmaRhoDo']}
+/data3/debabrata/muon/miniTree/
+[92m[INFO] Read file:[0m
+[#1] INFO:ObjectHandling -- RooWorkspace::import(cms_hmmg_13TeV) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(cms_hmmg_13TeV) importing RooRealVar::weight
+[#1] INFO:ObjectHandling -- RooWorkspace::import(cms_hmmg_13TeV) importing dataset set_130_diMu9_EBHR9
+[#1] INFO:ObjectHandling -- RooWorkspace::import(cms_hmmg_13TeV) importing dataset set_130_diMu9_EBLR9
+[#1] INFO:ObjectHandling -- RooWorkspace::import(cms_hmmg_13TeV) importing dataset set_130_diMu9_EE
+[#1] INFO:ObjectHandling -- RooWorkspace::import(cms_hmmg_13TeV) importing dataset set_130_diMu9_VBF
+[#1] INFO:ObjectHandling -- RooWorkspace::import(cms_hmmg_13TeV) importing dataset set_130_diMu9_BST
+[#1] INFO:ObjectHandling -- RooWorkspace::import(cms_hmmg_13TeV) importing dataset set_130_diMu50_EBHR9
+[#1] INFO:ObjectHandling -- RooWorkspace::import(cms_hmmg_13TeV) importing dataset set_130_diMu50_EBLR9
+[#1] INFO:ObjectHandling -- RooWorkspace::import(cms_hmmg_13TeV) importing dataset set_130_diMu50_EE
+[#1] INFO:ObjectHandling -- RooWorkspace::import(cms_hmmg_13TeV) importing dataset set_130_diMu50_VBF
+[#1] INFO:ObjectHandling -- RooWorkspace::import(cms_hmmg_13TeV) importing dataset set_130_diMu50_BST
+['/data3/debabrata/muon/miniTree/UL2018/miniTree_HDalitz_WH_mmg_130_UL2018_MuPhoTrig.root']
+[92m[INFO] Save WS in :[0m
+'/home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Tree2WS/WS/2018/signal_WH_130.root'

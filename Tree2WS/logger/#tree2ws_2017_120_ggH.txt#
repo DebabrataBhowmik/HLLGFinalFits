@@ -1,0 +1,11 @@
+120 2017 ggH
+
+{'inputTreeFiles': {'ggH': [], 'VBF': [], 'WH': [], 'ZH': [], 'ttH': [], 'bbH': []}, 'inputTreeName': 'miniTree', 'outputWSFiles': {'ggH': '/home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Tree2WS/WS/2017/signal_ggH_120.root', 'VBF': '/home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Tree2WS/WS/2017/signal_VBF_120.root', 'WH': '/home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Tree2WS/WS/2017/signal_WH_120.root', 'ZH': '/home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Tree2WS/WS/2017/signal_ZH_120.root', 'ttH': '/home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Tree2WS/WS/2017/signal_ttH_120.root', 'bbH': '/home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Tree2WS/WS/2017/signal_bbH_120.root'}, 'sysWeis': ['weight_MuIDDo', 'weight_MuIDUp', 'weight_HLTDo', 'weight_HLTUp', 'weight_L1PFDo', 'weight_L1PFUp', 'weight_MuPFDo', 'weight_MuPFUp', 'weight_PhoIDDo', 'weight_PhoIDUp', 'weight_puweiDo', 'weight_puweiUp'], 'sysHists': ['JERUp', 'JERDo', 'JECUp', 'JECDo', 'MuCalibStat', 'MuCalibZpt', 'MuCalibEwk', 'MuCalibdeltaM', 'MuCalibEwk2', 'PhoNoR9Corr', 'PhoScaleStatUp', 'PhoScaleSystUp', 'PhoScaleGainUp', 'PhoScaleStatDo', 'PhoScaleSystDo', 'PhoScaleGainDo', 'PhoSigmaPhiUp', 'PhoSigmaRhoUp', 'PhoSigmaRhoDo']}
+
+{'ggH': [], 'VBF': [], 'WH': [], 'ZH': [], 'ttH': [], 'bbH': []}
+
+[92m[INFO] Read file:[0m
+
+[#1] INFO:ObjectHandling -- RooWorkspace::import(cms_hmmg_13TeV) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(cms_hmmg_13TeV) importing RooRealVar::weight
+[]

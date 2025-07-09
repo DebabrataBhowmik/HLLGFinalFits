@@ -1,0 +1,6 @@
+120 UL2017 ZH
+{'ggH': [], 'VBF': [], 'WH': [], 'ZH': [], 'ttH': [], 'bbH': []}
+[92m[INFO] Read file:[0m
+[#1] INFO:ObjectHandling -- RooWorkspace::import(cms_hmmg_13TeV) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(cms_hmmg_13TeV) importing RooRealVar::weight
+{'ggH': [], 'VBF': [], 'WH': [], 'ZH': [], 'ttH': [], 'bbH': []}

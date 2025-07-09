@@ -1,11 +1,11 @@
 import ROOT
-import os
+import os, sys
 import subprocess
 import json
 from tqdm import tqdm
 from multiprocessing import Pool
 from argparse import ArgumentParser
-from commonObjects import massBaseList, years, productionModes
+from commonObjects import massBaseList, years, eras, productionModes
 from commonTools import cprint
 
 
@@ -33,7 +33,7 @@ def main():
     queues = []
     logfiles = []
     if script == "tree2ws":
-        for y in year:
+        for y in years:
             for p in productionMode:
                 for m in mass:
                     command_ = f"python3 tree2ws.py --config {config} --year {y} --mass {m} --productionMode {p}"
@@ -61,6 +61,9 @@ def main():
         pass
     pool.close()
     pool.join()
+    
+    # for q in queues:
+    #     os.system(q)
     
 
 if __name__ == "__main__" :
