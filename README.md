@@ -29,3 +29,21 @@ cd Tree2WS
 python3 runTree2WS.py -s tree2ws -c config.py
 python3 runTree2WS.py -s tree2ws_data -c config_data.py
 ```
+go to $CMSSW_BASE (stay within singularity)
+
+```
+cd CMSSW_11_3_4/src
+cmsenv
+git -c advice.detachedHead=false clone --depth 1 --branch v9.2.1 https://github.com/cms-analysis/HiggsAnalysis-CombinedLimit.git HiggsAnalysis/CombinedLimit
+cd HiggsAnalysis/CombinedLimit
+scramv1 b clean; scramv1 b # always make a clean build
+```
+Go to background
+```
+cd HLLGFinalFits/Background
+make
+```
+```
+python3 runBackground.py
+```
+
