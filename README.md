@@ -27,7 +27,7 @@ source setup.sh
 
 cd Tree2WS
 python3 runTree2WS.py -s tree2ws -c config.py
-python3 runTree2WS.py -s tree2ws_data -c config_data.py
+python3 runTree2WS.py -s tree2ws_data -c config_data.py 
 ```
 Go to $CMSSW_BASE (stay within singularity), and install CombinedLimit
 
@@ -47,7 +47,7 @@ make
 python3 runBackground.py
 ```
 Go to Signal directory
-(The first two commands didn't work for now....)
+(The first command didn't work for now....)
 ```ruby
 cd HLLGFinalFits/Signal
 
