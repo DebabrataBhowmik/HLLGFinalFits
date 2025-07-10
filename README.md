@@ -46,4 +46,15 @@ make
 ```
 python3 runBackground.py
 ```
+Go to Signal directory
+(The first two commands didn't work for now....)
+```ruby
+cd HLLGFinalFits/Signal
+
+python3 runSignal.py -s calcShapeSyst
+python3 runSignal.py -s calcYieldSyst
+
+python3 runSignal.py -s signalFit
+python3 runSignal.py -s makeModelPlot
+
 
