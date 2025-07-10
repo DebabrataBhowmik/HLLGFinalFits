@@ -29,7 +29,7 @@ cd Tree2WS
 python3 runTree2WS.py -s tree2ws -c config.py
 python3 runTree2WS.py -s tree2ws_data -c config_data.py
 ```
-go to $CMSSW_BASE (stay within singularity)
+Go to $CMSSW_BASE (stay within singularity), and install CombinedLimit
 
 ```
 cd CMSSW_11_3_4/src
