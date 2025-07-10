@@ -39,11 +39,11 @@ cd HiggsAnalysis/CombinedLimit
 scramv1 b clean; scramv1 b # always make a clean build
 ```
 Go to background
-```
+```ruby
 cd HLLGFinalFits/Background
 make
 ```
-```
+```ruby
 python3 runBackground.py
 ```
 Go to Signal directory
