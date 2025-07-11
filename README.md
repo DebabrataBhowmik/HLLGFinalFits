@@ -55,5 +55,18 @@ python3 runSignal.py -s calcYieldSyst
 
 python3 runSignal.py -s signalFit
 python3 runSignal.py -s makeModelPlot
+```
+Go to Datacard directory (to be confirmed)
+```ruby
+python3 makeYields.py
+python3 makeDatacard.py
+```
 
 
+Go to Combine directory (to be confirmed)
+Looks like we need to do the following :
+Copy the cards directory from DataCard directory produced in the previous step
+```ruby
+python3 mergeCards.py
+./run_combine.sh
+```
