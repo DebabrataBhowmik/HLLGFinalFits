@@ -47,7 +47,6 @@ make
 python3 runBackground.py
 ```
 Go to Signal directory
-(The first command didn't work for now....)
 ```ruby
 cd HLLGFinalFits/Signal
 
