@@ -2,7 +2,7 @@
 FinalFits for HiggsDalitz
 
 
-Log in to Chip03 
+Log in to NCU cluster (Chip03) 
 ```ruby
 ssh -Y dbhowmik@chip03.phy.ncu.edu.tw
 ```
