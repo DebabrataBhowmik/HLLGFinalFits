@@ -4,7 +4,7 @@ FinalFits for HiggsDalitz
 
 Log in to Chip03 
 ```ruby
-ssh -Y dbhowmik@chip03.phy.ncu.edu.tw)
+ssh -Y dbhowmik@chip03.phy.ncu.edu.tw
 ```
 
 Go to the working directory : (/home/dbhowmik/work/HiggsDalitz/HLLGFinalFits)
