@@ -23,8 +23,8 @@ def main():
     # create the queue to be submitted
     queue = []
     for c in range(len(category__.keys())):
+        # queue.append("./bin/fTest_v2 --infile {} --runFtestCheckWithToys --singleCat {} --HLLGCats {} --unblind &> ./logger/fTest_v2_{}_unblind.txt".format(infile, c, HLLGCatsStr, list(category__.keys())[c]))
         queue.append("./bin/fTest_v2 --infile {} --runFtestCheckWithToys --singleCat {} --HLLGCats {} &> ./logger/fTest_v2_{}.txt".format(infile, c, HLLGCatsStr, list(category__.keys())[c]))
-
     n = len(category__.keys())
     cprint("Executing the following commands using {} cores".format(n), colorStr="green")
     

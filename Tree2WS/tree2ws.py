@@ -26,7 +26,7 @@ def get_parser():
     parser.add_argument("-y",  "--year",            help="Year",                                                        default=2017, type=int)
     parser.add_argument("-m",  "--mass",            help="mass point",                                                  default=125,  type=int)
     parser.add_argument("-p",  "--productionMode",  help="Production mode [ggH, VBF, WH, ZH, ttH, bbH]",                default="ggH",type=str)
-    parser.add_argument("-ds", "--doSystematics",   help="Add systematics datasets to output WS",                       default=False,action="store_true")
+    parser.add_argument("-ds", "--doSystematics",   help="Add systematics datasets to output WS",                       default=True,action="store_true")
     parser.add_argument("-uh", "--useSystHist",     help="load the systematic histograms else minitrees",               default=False,action="store_true")
     parser.add_argument("-v",  "--verbose",         help="verbose message",                                             default=False,action="store_true")
     parser.add_argument("-pn", "--preventNegative", help="set the negative bin content of mass histograms to 0.",       default=False,action="store_true")
@@ -94,7 +94,7 @@ def main():
                 
             if args.useSystHist: # for electron channel analysis
                 for sh in sysHists: # affect shape 
-                    cat_prefix = cat_cut.replace("category == ", "cat") #! FIXEDME: better way to extract the hist?
+                    cat_prefix = cat_cut.replace("category == ", "cat") #! FIXEDME: better way to extract the hist?   
                     if ("Merged" in cat_name) and ("EleScale" not in sh) and ("EleSigma" not in sh):
                         sysFileNames = [sf for sf in inputTreeFile if "merged" in sf]
                         hist_sys = ROOT.TH1F(f"{cat_prefix}_{sh}", "", 60, 110, 170)

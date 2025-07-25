@@ -8,7 +8,7 @@ import numpy as np
 from argparse import ArgumentParser
 from collections import OrderedDict as od
 from CMS_lumi import CMS_lumi
-from sigmaEff import sigmaEff
+# from sigmaEff import sigmaEff
 from commonObjects import inputWSName__, twd__, swd__, outputWSName__, yearsStr
 ROOT.gInterpreter.ProcessLine(" #include \"./tools/effSigma.h\" ")
 
@@ -57,7 +57,7 @@ def plot_signal(hists, xmin, xmax, eff_sigma, outName, cat, process, offset=0.03
     h_axes.GetXaxis().SetLabelSize(0.04)
     h_axes.GetXaxis().SetLabelOffset(0.02)
     h_axes.GetXaxis().SetTitleOffset(1.4)
-    h_axes.GetXaxis().SetTitle("M_{ee#gamma} [GeV]")
+    h_axes.GetXaxis().SetTitle("m_{#mu#mu#gamma} [GeV]")
     # h_axes.GetYaxis().SetTitle("Signal shape / ({} GeV)".format((170 - 105)/Nbins))
     h_axes.GetYaxis().SetNdivisions(510)
     h_axes.GetYaxis().SetTickSize(0.03)
@@ -149,7 +149,7 @@ def plot_signal(hists, xmin, xmax, eff_sigma, outName, cat, process, offset=0.03
     mode.SetTextFont(42)
     mode.SetNDC()
     mode.SetTextSize(0.04)
-    mode.DrawLatex(0.16+offset, 0.86, "H #rightarrow #gamma*#gamma #rightarrow ee#gamma")
+    mode.DrawLatex(0.16+offset, 0.86, "H #rightarrow #gamma*#gamma #rightarrow #mu#mu#gamma")
 
     catProc = ROOT.TLatex()
     catProc.SetTextFont(42)
@@ -179,7 +179,8 @@ def main():
     # datasets and eff_sigma
     ScaleNumber = 400 # use to create smooth histogram
     xmin, xmax, eff_sigma = od(), od(), od()
-    vall = []
+    # vall = []
+    vall = ROOT.std.vector("float")()
     for year in yearsStr:
         # extract the dataset
         fsetname = "{}/WS/{}/signal_{}_{}.root".format(twd__, year, args.process, args.mass)
@@ -189,12 +190,17 @@ def main():
         data[year].fillHistogram(hists["data"], ROOT.RooArgList(CMS_higgs_mass)) # fill the histogram for dataset
 
         # calculate the effective sigma per year
-        v = []
+        # v = []
+        v = ROOT.std.vector("float")()
         for i in range(data[year].numEntries()):
             ods_value = data[year].get(i).getRealValue(CMS_higgs_mass.GetName())
-            v.append(ods_value)
-            vall.append(ods_value)
-        xmin["{}".format(year)], xmax["{}".format(year)], eff_sigma["{}".format(year)] = sigmaEff(np.array(v))
+            # v.append(ods_value)
+            v.push_back(ods_value)
+            # vall.append(ods_value)
+            vall.push_back(ods_value)
+        vsigma = ROOT.sigmaEff(v)
+        xmin["{}".format(year)], xmax["{}".format(year)], eff_sigma["{}".format(year)] = vsigma[0], vsigma[1], vsigma[2]
+        # xmin["{}".format(year)], xmax["{}".format(year)], eff_sigma["{}".format(year)] = sigmaEff(np.array(v))
 
         # hist_year = ROOT.TH1F("hyear", "", 60, 110, 170)
         # data[year].fillHistogram(hist_year, ROOT.RooArgList(CMS_higgs_mass)) # fill the histogram for dataset
@@ -205,11 +211,16 @@ def main():
         # extract the final models per year
         fpdfname = "{}/WS/Interpolation/{}/CMS_HLLG_Interp_{}_{}_{}_{}.root".format(swd__, year, args.mass, args.process, year, args.category)
         inputWSPdf = get_ws(fpdfname, outputWSName__)
-        pdf = inputWSPdf.pdf("SigPdf")
+        
+        SigPdf_name = "SigPdf_{}_{}_{}_{}".format(args.process, args.mass, args.category, year)
+        pdf = inputWSPdf.pdf(SigPdf_name)
+        
         hpdfs[year] = pdf.createHistogram("h_pdf_%s"%year, CMS_higgs_mass, ROOT.RooFit.Binning(args.nBins * ScaleNumber))
 
     # calculate the effective sigma for 3 years
-    xmin["all"], xmax["all"], eff_sigma["all"] = sigmaEff(np.array(vall))
+    vsigma_all = ROOT.sigmaEff(vall)
+    xmin["all"], xmax["all"], eff_sigma["all"] = vsigma_all[0],  vsigma_all[1],  vsigma_all[2]
+    # xmin["all"], xmax["all"], eff_sigma["all"] = sigmaEff(np.array(vall))
     # v_sigma_all = ROOT.effSigma(hists["data"])
     # xmin["all"], xmax["all"], eff_sigma["all"] = v_sigma_all[0], v_sigma_all[1], v_sigma_all[2]
 
@@ -233,8 +244,7 @@ def main():
 
     # draw the signal model
     outPlot = "{}/plots/final".format(swd__)
-    if not os.path.exists(outPlot):
-        os.makedirs(outPlot)
+    os.makedirs(outPlot, exist_ok=True)
     outName = "{}/FinalModel_{}_{}_{}.pdf".format(outPlot, args.mass, args.category, args.process)
     plot_signal(hists, xmin, xmax, eff_sigma, outName, args.category, args.process)
 

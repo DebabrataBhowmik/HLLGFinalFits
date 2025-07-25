@@ -1,0 +1,14 @@
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+Will use a-priori expected background instead of a-posteriori one.
+>>> method used is AsymptoticLimits
+SimNLL created with 1 channels, 0 generic constraints, 67 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 3.5590
+Expected 16.0%: r < 5.0314
+Expected 50.0%: r < 7.6562
+Expected 84.0%: r < 12.0509
+Expected 97.5%: r < 18.4559
+
+Done in 0.03 min (cpu), 0.04 min (real)

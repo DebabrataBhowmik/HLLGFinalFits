@@ -1,0 +1,38 @@
+ --> Processing ( ggH, diMu25_EE, 120, 2018 ) rate uncertainties
+ --> Processing ( VBF, diMu25_EE, 120, 2018 ) rate uncertainties
+ --> Processing (  WH, diMu25_EE, 120, 2018 ) rate uncertainties
+ --> Processing (  ZH, diMu25_EE, 120, 2018 ) rate uncertainties
+ --> Processing ( ttH, diMu25_EE, 120, 2018 ) rate uncertainties
+ --> Processing ( bbH, diMu25_EE, 120, 2018 ) rate uncertainties
+ --> Processing ( ggH, diMu25_EE, 125, 2018 ) rate uncertainties
+ --> Processing ( VBF, diMu25_EE, 125, 2018 ) rate uncertainties
+ --> Processing (  WH, diMu25_EE, 125, 2018 ) rate uncertainties
+ --> Processing (  ZH, diMu25_EE, 125, 2018 ) rate uncertainties
+ --> Processing ( ttH, diMu25_EE, 125, 2018 ) rate uncertainties
+ --> Processing ( bbH, diMu25_EE, 125, 2018 ) rate uncertainties
+ --> Processing ( ggH, diMu25_EE, 130, 2018 ) rate uncertainties
+ --> Processing ( VBF, diMu25_EE, 130, 2018 ) rate uncertainties
+ --> Processing (  WH, diMu25_EE, 130, 2018 ) rate uncertainties
+ --> Processing (  ZH, diMu25_EE, 130, 2018 ) rate uncertainties
+ --> Processing ( ttH, diMu25_EE, 130, 2018 ) rate uncertainties
+ --> Processing ( bbH, diMu25_EE, 130, 2018 ) rate uncertainties
+   proc        cat mass  year    nominalDataName       JEC       JER PhoNoR9Corr weight_MuID weight_HLT weight_L1PF weight_MuPF weight_PhoID weight_puwei
+0   ggH  diMu25_EE  120  2018  set_120_diMu25_EE       0.0  0.000052    0.000624    0.005774   0.076631         0.0    0.001235     0.011873     0.011192
+1   VBF  diMu25_EE  120  2018  set_120_diMu25_EE       0.0  0.000597    0.000702    0.005643   0.077599         0.0     0.00126     0.011697     0.027665
+2    WH  diMu25_EE  120  2018  set_120_diMu25_EE       0.0       0.0    0.000636    0.005601    0.07756         0.0    0.001386     0.011668     0.020507
+3    ZH  diMu25_EE  120  2018  set_120_diMu25_EE       0.0  0.000197    0.000651     0.00562   0.077057         0.0    0.001376     0.011631     0.009259
+4   ttH  diMu25_EE  120  2018  set_120_diMu25_EE       0.0  0.000715    0.000487    0.005591   0.076649         0.0    0.001504     0.011569     0.002056
+5   bbH  diMu25_EE  120  2018  set_120_diMu25_EE       0.0       0.0    0.000694    0.005455   0.076547         0.0     0.00119     0.011881      0.01089
+6   ggH  diMu25_EE  125  2018  set_125_diMu25_EE       0.0       0.0     0.00064    0.005573   0.077388         0.0    0.001242     0.012244     0.011936
+7   VBF  diMu25_EE  125  2018  set_125_diMu25_EE       0.0  0.000736    0.000747    0.005495    0.07828         0.0    0.001263     0.012086     0.006909
+8    WH  diMu25_EE  125  2018  set_125_diMu25_EE       0.0       0.0    0.000753    0.005421   0.077188         0.0     0.00136     0.012091     0.006245
+9    ZH  diMu25_EE  125  2018  set_125_diMu25_EE       0.0       0.0    0.000685    0.005408   0.077748         0.0    0.001399     0.012046     0.012704
+10  ttH  diMu25_EE  125  2018  set_125_diMu25_EE       0.0       0.0    0.000369    0.005375   0.078409         0.0    0.001536     0.011793      0.01764
+11  bbH  diMu25_EE  125  2018  set_125_diMu25_EE       0.0  0.000452    0.000584    0.005485   0.076806         0.0    0.001258     0.012618     0.018205
+12  ggH  diMu25_EE  130  2018  set_130_diMu25_EE       0.0       0.0    0.000637     0.00536   0.077861         0.0    0.001267     0.012681     0.005979
+13  VBF  diMu25_EE  130  2018  set_130_diMu25_EE  0.000241   0.00077    0.000849    0.005268   0.078494         0.0    0.001256     0.012233     0.010255
+14   WH  diMu25_EE  130  2018  set_130_diMu25_EE       0.0  0.000214    0.000635    0.005396   0.077372         0.0    0.001398      0.01233     0.006428
+15   ZH  diMu25_EE  130  2018  set_130_diMu25_EE       0.0       0.0    0.000653    0.005472   0.078484         0.0    0.001355     0.012225     0.010607
+16  ttH  diMu25_EE  130  2018  set_130_diMu25_EE       0.0       0.0    0.000463    0.005247   0.079175         0.0    0.001513     0.011992     0.003525
+17  bbH  diMu25_EE  130  2018  set_130_diMu25_EE       0.0       0.0    0.000766    0.005297   0.076937         0.0    0.001216     0.012888     0.007245
+ --> Successfully saved rate systematics as pkl file: /home/chenghan/HDalitzMu/CMSSW_11_3_4/src/HLLGFinalFits/Signal/syst/rate_syst_diMu25_EE_2018.pkl

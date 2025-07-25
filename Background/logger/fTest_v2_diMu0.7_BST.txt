@@ -1,0 +1,467 @@
+Warning in <TClassTable::Add>: class RooPowerLaw already in TClassTable
+Warning in <TClassTable::Add>: class RooPowerLaw already in TClassTable
+Error in <TCling::LoadPCM>: ROOT PCM /home/chenghan/HDalitzMu/CMSSW_11_3_4/src/HLLGFinalFits/Background/lib/RootDict_rdict.pcm file does not exist
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libASImageGui_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libASImage_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libDCache_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libEG_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libEve_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libFFTW_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libFitPanel_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libFumili_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGX11TTF_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGX11_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGdml_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGed_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGenetic_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGeomBuilder_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGeomPainter_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGeom_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGuiBld_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGuiHtml_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGviz3d_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libHistPainter_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libHtml_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libMinuit2_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libNetxNG_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libProofBench_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libProofDraw_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libProofPlayer_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libProof_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libPyMVA_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libQuadp_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRCsg_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRDAVIX_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRGL_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRHTTPSniff_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRHTTP_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTBrowsable_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTBrowserv7_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTEve_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTFitPanelv7_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTGpadv7_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTGraphicsPrimitives_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTHistDraw_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTHist_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTTPython_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTWebDisplay_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRecorder_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRooFitMore_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRootAuth_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libSPlot_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libSQLIO_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libSessionViewer_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libSpectrumPainter_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libSpectrum_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libTMVAGui_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libTreeViewer_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libUnfold_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libWebGui6_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libX3d_rdict.pcm
+
+Warning in <TClassTable::Add>: class PdfModelBuilder already in TClassTable
+Warning in <TClassTable::Add>: class ProfileMultiplePdfs already in TClassTable
+Warning in <TClassTable::Add>: class RooExponentialSum already in TClassTable
+Warning in <TClassTable::Add>: class RooPowerLawSum already in TClassTable
+Warning in <TClassTable::Add>: class WSTFileWrapper already in TClassTable
+Error in <TCling::LoadPCM>: ROOT PCM /home/chenghan/HDalitzMu/CMSSW_11_3_4/src/HLLGFinalFits/Background/bin/RootDict_rdict.pcm file does not exist
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libASImageGui_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libASImage_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libDCache_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libEG_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libEve_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libFFTW_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libFitPanel_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libFumili_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGX11TTF_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGX11_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGdml_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGed_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGenetic_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGeomBuilder_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGeomPainter_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGeom_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGuiBld_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGuiHtml_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libGviz3d_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libHistPainter_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libHtml_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libMinuit2_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libNetxNG_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libProofBench_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libProofDraw_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libProofPlayer_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libProof_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libPyMVA_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libQuadp_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRCsg_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRDAVIX_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRGL_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRHTTPSniff_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRHTTP_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTBrowsable_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTBrowserv7_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTEve_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTFitPanelv7_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTGpadv7_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTGraphicsPrimitives_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTHistDraw_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTHist_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTTPython_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libROOTWebDisplay_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRecorder_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRooFitMore_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libRootAuth_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libSPlot_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libSQLIO_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libSessionViewer_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libSpectrumPainter_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libSpectrum_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libTMVAGui_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libTreeViewer_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libUnfold_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libWebGui6_rdict.pcm
+
+Info in <TCling::LoadPCM>: In-memory ROOT PCM candidate /cvmfs/cms.cern.ch/slc7_amd64_gcc900/lcg/root/6.22.08-ljfedo/lib/libX3d_rdict.pcm
+
+[INFO] Save multiPdf model: ./multipdf/CMS_HLLG_multipdf_13TeV_diMu0.7_BST.root
+[INFO] FitResults file: plots/fTest/fTestResults_diMu0.7_BST.txt
+[INFO] Got mass from ws: CMS_higgs_mass
+[INFO] Open data for data_obs_diMu0.7_BST. Sum of entries: 313
+[INFO] Perform the F-test on:  category diMu0.7_BST, ftest_pdf_diMu0.7_BST_13TeV_bern1
+[INFO] Function: Bernstein, order: 1, prevNll: 0, thisNll: 1256.38, chi2: -2512.76, prob: 0
+[INFO] Perform the F-test on:  category diMu0.7_BST, ftest_pdf_diMu0.7_BST_13TeV_bern2
+Info in <TCanvas::Print>: pdf file plots/fTest/Ftest_from_Bernstein2_diMu0.7_BST_13TeV.pdf has been created
+Info in <TCanvas::Print>: pdf file plots/fTest/Ftest_from_Bernstein2_diMu0.7_BST_13TeV.pdf_fitstatus.pdf has been created
+[INFO] F-test Prob(chi2>chi2(data)) == 0.776
+[INFO] Function: Bernstein, order: 2, prevNll: 1256.38, thisNll: 1256.34, chi2: 0.0862326, prob: 0.776
+[INFO] Determining Envelope Functions for Family: Bernstein, cat: diMu0.7_BST
+[INFO] Upper end Threshold for highest order function 0.1
+[INFO] Function: Bernstein, order: 1, prevNll: 0, thisNll: 1256.38, chi2: -2512.76, prob: 0
+[INFO] Calculating GOF for pdf ext, using 2 fitted parameters
+[INFO] Chi2 in Observed = 41.6309
+[INFO] p-value = 0.948312
+Info in <TCanvas::Print>: pdf file plots/fTest/single_fit/Bernstein1_diMu0.7_BST_13TeV.pdf has been created
+[INFO] Adding to Envelope env_pdf_diMu0.7_BST_13TeV_bern1 0.948312 2xNLL + c is 2514.76
+[INFO] Function: Bernstein, order: 2, prevNll: 1256.38, thisNll: 1256.34, chi2: 0.0862326, prob: 0.769022
+[INFO] Calculating GOF for pdf ext, using 3 fitted parameters
+[INFO] Chi2 in Observed = 41.6974
+[INFO] p-value = 0.93603
+Info in <TCanvas::Print>: pdf file plots/fTest/single_fit/Bernstein2_diMu0.7_BST_13TeV.pdf has been created
+--------------------------
+[INFO] Perform the F-test on:  category diMu0.7_BST, ftest_pdf_diMu0.7_BST_13TeV_exp1
+[INFO] Function: Exponential, order: 1, prevNll: 0, thisNll: 1257.32, chi2: -2514.65, prob: 0
+ERROR -- addExponential -- only odd number of params allowed
+--------------------------
+[INFO] Perform the F-test on:  category diMu0.7_BST, ftest_pdf_diMu0.7_BST_13TeV_exp3
+Info in <TCanvas::Print>: pdf file plots/fTest/Ftest_from_Exponential3_diMu0.7_BST_13TeV.pdf has been created
+Info in <TCanvas::Print>: pdf file plots/fTest/Ftest_from_Exponential3_diMu0.7_BST_13TeV.pdf_fitstatus.pdf has been created
+[INFO] F-test Prob(chi2>chi2(data)) == 0.6875
+[INFO] Function: Exponential, order: 3, prevNll: 1257.32, thisNll: 1257.32, chi2: 0, prob: 0.6875
+[INFO] Determining Envelope Functions for Family: Exponential, cat: diMu0.7_BST
+[INFO] Upper end Threshold for highest order function 0.1
+--------------------------
+[INFO] Function: Exponential, order: 1, prevNll: 0, thisNll: 1257.32, chi2: -2514.65, prob: 0
+[INFO] Calculating GOF for pdf ext, using 2 fitted parameters
+[INFO] Chi2 in Observed = 42.1771
+[INFO] p-value = 0.941278
+Info in <TCanvas::Print>: pdf file plots/fTest/single_fit/Exponential1_diMu0.7_BST_13TeV.pdf has been created
+[INFO] Adding to Envelope env_pdf_diMu0.7_BST_13TeV_exp1 0.941278 2xNLL + c is 2516.65
+ERROR -- addExponential -- only odd number of params allowed
+--------------------------
+[INFO] Function: Exponential, order: 3, prevNll: 1257.32, thisNll: 1257.32, chi2: 0, prob: 1
+[INFO] Calculating GOF for pdf ext, using 4 fitted parameters
+[INFO] Chi2 in Observed = 42.2289
+[INFO] p-value = 0.9134
+Info in <TCanvas::Print>: pdf file plots/fTest/single_fit/Exponential3_diMu0.7_BST_13TeV.pdf has been created
+[INFO] Perform the F-test on:  category diMu0.7_BST, ftest_pdf_diMu0.7_BST_13TeV_pow1
+[INFO] Function: PowerLaw, order: 1, prevNll: 0, thisNll: 1257.69, chi2: -2515.38, prob: 0
+ERROR -- addPowerLaw -- only odd number of params allowed
+[INFO] Perform the F-test on:  category diMu0.7_BST, ftest_pdf_diMu0.7_BST_13TeV_pow3
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+Info in <TCanvas::Print>: pdf file plots/fTest/Ftest_from_PowerLaw3_diMu0.7_BST_13TeV.pdf has been created
+Info in <TCanvas::Print>: pdf file plots/fTest/Ftest_from_PowerLaw3_diMu0.7_BST_13TeV.pdf_fitstatus.pdf has been created
+[INFO] F-test Prob(chi2>chi2(data)) == 0.584292
+[INFO] Function: PowerLaw, order: 3, prevNll: 1257.69, thisNll: 1257.69, chi2: 0, prob: 0.584292
+[INFO] Determining Envelope Functions for Family: PowerLaw, cat: diMu0.7_BST
+[INFO] Upper end Threshold for highest order function 0.1
+[INFO] Function: PowerLaw, order: 1, prevNll: 0, thisNll: 1257.69, chi2: -2515.38, prob: 0
+[INFO] Calculating GOF for pdf ext, using 2 fitted parameters
+[INFO] Chi2 in Observed = 42.5237
+[INFO] p-value = 0.936474
+Info in <TCanvas::Print>: pdf file plots/fTest/single_fit/PowerLaw1_diMu0.7_BST_13TeV.pdf has been created
+[INFO] Adding to Envelope env_pdf_diMu0.7_BST_13TeV_pow1 0.936474 2xNLL + c is 2517.38
+ERROR -- addPowerLaw -- only odd number of params allowed
+[INFO] Function: PowerLaw, order: 3, prevNll: 1257.69, thisNll: 1257.69, chi2: 0, prob: 1
+[INFO] Calculating GOF for pdf ext, using 4 fitted parameters
+[INFO] Chi2 in Observed = 42.5793
+[INFO] p-value = 0.906931
+Info in <TCanvas::Print>: pdf file plots/fTest/single_fit/PowerLaw3_diMu0.7_BST_13TeV.pdf has been created
+[INFO] Perform the F-test on:  category diMu0.7_BST, ftest_pdf_diMu0.7_BST_13TeV_lau1
+[INFO] Function: Laurent, order: 1, prevNll: 0, thisNll: 1259.46, chi2: -2518.92, prob: 0
+[INFO] Perform the F-test on:  category diMu0.7_BST, ftest_pdf_diMu0.7_BST_13TeV_lau2
+Info in <TCanvas::Print>: pdf file plots/fTest/Ftest_from_Laurent2_diMu0.7_BST_13TeV.pdf has been created
+Info in <TCanvas::Print>: pdf file plots/fTest/Ftest_from_Laurent2_diMu0.7_BST_13TeV.pdf_fitstatus.pdf has been created
+[INFO] F-test Prob(chi2>chi2(data)) == 0.0405
+[INFO] Function: Laurent, order: 2, prevNll: 1259.46, thisNll: 1257.71, chi2: 3.50695, prob: 0.0405
+[INFO] Perform the F-test on:  category diMu0.7_BST, ftest_pdf_diMu0.7_BST_13TeV_lau3
+Info in <TCanvas::Print>: pdf file plots/fTest/Ftest_from_Laurent3_diMu0.7_BST_13TeV.pdf has been created
+Info in <TCanvas::Print>: pdf file plots/fTest/Ftest_from_Laurent3_diMu0.7_BST_13TeV.pdf_fitstatus.pdf has been created
+[INFO] F-test Prob(chi2>chi2(data)) == 0.33
+[INFO] Function: Laurent, order: 3, prevNll: 1257.71, thisNll: 1257.71, chi2: 1.9703e-05, prob: 0.33
+[INFO] Determining Envelope Functions for Family: Laurent, cat: diMu0.7_BST
+[INFO] Upper end Threshold for highest order function 0.1
+[INFO] Function: Laurent, order: 1, prevNll: 0, thisNll: 1259.46, chi2: -2518.92, prob: 0
+[INFO] Calculating GOF for pdf ext, using 2 fitted parameters
+[INFO] Chi2 in Observed = 46.2268
+[INFO] p-value = 0.867411
+Info in <TCanvas::Print>: pdf file plots/fTest/single_fit/Laurent1_diMu0.7_BST_13TeV.pdf has been created
+[INFO] Adding to Envelope env_pdf_diMu0.7_BST_13TeV_lau1 0.867411 2xNLL + c is 2520.92
+[INFO] Function: Laurent, order: 2, prevNll: 1259.46, thisNll: 1257.71, chi2: 3.50695, prob: 0.0611118
+[INFO] Calculating GOF for pdf ext, using 3 fitted parameters
+[INFO] Chi2 in Observed = 42.53
+[INFO] p-value = 0.923168
+Info in <TCanvas::Print>: pdf file plots/fTest/single_fit/Laurent2_diMu0.7_BST_13TeV.pdf has been created
+[INFO] Adding to Envelope env_pdf_diMu0.7_BST_13TeV_lau2 0.923168 2xNLL + c is 2518.41
+[INFO] Function: Laurent, order: 3, prevNll: 1257.71, thisNll: 1257.71, chi2: 1.9703e-05, prob: 0.996458
+[INFO] Calculating GOF for pdf ext, using 4 fitted parameters
+[INFO] Chi2 in Observed = 42.5564
+[INFO] p-value = 0.907364
+Info in <TCanvas::Print>: pdf file plots/fTest/single_fit/Laurent3_diMu0.7_BST_13TeV.pdf has been created
+// ------------------------------------------------------------------------- //
+[INFO] Created MultiPdf CMS_higgs_diMu0.7_BST_13TeV_bkgshape, in Category 4 with a total of 5 pdfs
+RooArgList::store = (env_pdf_diMu0.7_BST_13TeV_bern1,env_pdf_diMu0.7_BST_13TeV_exp1,env_pdf_diMu0.7_BST_13TeV_pow1,env_pdf_diMu0.7_BST_13TeV_lau1,env_pdf_diMu0.7_BST_13TeV_lau2)
+[INFO] Best Fit Pdf = 0, env_pdf_diMu0.7_BST_13TeV_bern1
+// ------------------------------------------------------------------------- //
+[INFO] Simple check of index 0
+env_pdf_diMu0.7_BST_13TeV_bern1
+env_pdf_diMu0.7_BST_13TeV_exp1
+env_pdf_diMu0.7_BST_13TeV_pow1
+env_pdf_diMu0.7_BST_13TeV_lau1
+env_pdf_diMu0.7_BST_13TeV_lau2
+H #rightarrow #gamma*#gamma #rightarrow #mu#mu#gamma
+[INFO]: CMS_lumi_mod.C macro is done!
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 0 : xtmp 110.5  ytmp 7 bkgval  8.73834 ytmp-bkgval -1.73834
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 1 : xtmp 111.5  ytmp 15 bkgval  8.61896 ytmp-bkgval 6.38104
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 2 : xtmp 112.5  ytmp 6 bkgval  8.49958 ytmp-bkgval -2.49958
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 3 : xtmp 113.5  ytmp 13 bkgval  8.3802 ytmp-bkgval 4.6198
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 4 : xtmp 114.5  ytmp 7 bkgval  8.26082 ytmp-bkgval -1.26082
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 5 : xtmp 115.5  ytmp 7 bkgval  8.14144 ytmp-bkgval -1.14144
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 6 : xtmp 116.5  ytmp 7 bkgval  8.02207 ytmp-bkgval -1.02207
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 7 : xtmp 117.5  ytmp 5 bkgval  7.90269 ytmp-bkgval -2.90269
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 8 : xtmp 118.5  ytmp 8 bkgval  7.78331 ytmp-bkgval 0.216691
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 9 : xtmp 119.5  ytmp 15 bkgval  7.66393 ytmp-bkgval 7.33607
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 10 : xtmp 130.5  ytmp 8 bkgval  6.35076 ytmp-bkgval 1.64924
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 11 : xtmp 131.5  ytmp 5 bkgval  6.23139 ytmp-bkgval -1.23139
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 12 : xtmp 132.5  ytmp 11 bkgval  6.11201 ytmp-bkgval 4.88799
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 13 : xtmp 133.5  ytmp 2 bkgval  5.99263 ytmp-bkgval -3.99263
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 14 : xtmp 134.5  ytmp 0 bkgval  5.87325 ytmp-bkgval -5.87325
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 15 : xtmp 135.5  ytmp 2 bkgval  5.75387 ytmp-bkgval -3.75387
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 16 : xtmp 136.5  ytmp 9 bkgval  5.63449 ytmp-bkgval 3.36551
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 17 : xtmp 137.5  ytmp 2 bkgval  5.51511 ytmp-bkgval -3.51511
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 18 : xtmp 138.5  ytmp 7 bkgval  5.39573 ytmp-bkgval 1.60427
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 19 : xtmp 139.5  ytmp 7 bkgval  5.27636 ytmp-bkgval 1.72364
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 20 : xtmp 140.5  ytmp 6 bkgval  5.15698 ytmp-bkgval 0.843023
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 21 : xtmp 141.5  ytmp 4 bkgval  5.0376 ytmp-bkgval -1.0376
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 22 : xtmp 142.5  ytmp 3 bkgval  4.91822 ytmp-bkgval -1.91822
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 23 : xtmp 143.5  ytmp 6 bkgval  4.79884 ytmp-bkgval 1.20116
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 24 : xtmp 144.5  ytmp 4 bkgval  4.67946 ytmp-bkgval -0.679463
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 25 : xtmp 145.5  ytmp 5 bkgval  4.56008 ytmp-bkgval 0.439916
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 26 : xtmp 146.5  ytmp 1 bkgval  4.44071 ytmp-bkgval -3.44071
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 27 : xtmp 147.5  ytmp 8 bkgval  4.32133 ytmp-bkgval 3.67867
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 28 : xtmp 148.5  ytmp 7 bkgval  4.20195 ytmp-bkgval 2.79805
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 29 : xtmp 149.5  ytmp 4 bkgval  4.08257 ytmp-bkgval -0.0825691
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 30 : xtmp 150.5  ytmp 2 bkgval  3.96319 ytmp-bkgval -1.96319
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 31 : xtmp 151.5  ytmp 3 bkgval  3.84381 ytmp-bkgval -0.843812
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 32 : xtmp 152.5  ytmp 5 bkgval  3.72443 ytmp-bkgval 1.27557
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 33 : xtmp 153.5  ytmp 5 bkgval  3.60505 ytmp-bkgval 1.39495
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 34 : xtmp 154.5  ytmp 3 bkgval  3.48568 ytmp-bkgval -0.485676
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 35 : xtmp 155.5  ytmp 6 bkgval  3.3663 ytmp-bkgval 2.6337
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 36 : xtmp 156.5  ytmp 2 bkgval  3.24692 ytmp-bkgval -1.24692
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 37 : xtmp 157.5  ytmp 3 bkgval  3.12754 ytmp-bkgval -0.12754
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 38 : xtmp 158.5  ytmp 8 bkgval  3.00816 ytmp-bkgval 4.99184
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 39 : xtmp 159.5  ytmp 2 bkgval  2.88878 ytmp-bkgval -0.888782
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 40 : xtmp 160.5  ytmp 3 bkgval  2.7694 ytmp-bkgval 0.230597
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 41 : xtmp 161.5  ytmp 2 bkgval  2.65002 ytmp-bkgval -0.650025
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 42 : xtmp 162.5  ytmp 1 bkgval  2.53065 ytmp-bkgval -1.53065
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 43 : xtmp 163.5  ytmp 5 bkgval  2.41127 ytmp-bkgval 2.58873
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 44 : xtmp 164.5  ytmp 3 bkgval  2.29189 ytmp-bkgval 0.708111
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 45 : xtmp 165.5  ytmp 2 bkgval  2.17251 ytmp-bkgval -0.17251
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 46 : xtmp 166.5  ytmp 1 bkgval  2.05313 ytmp-bkgval -1.05313
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 47 : xtmp 167.5  ytmp 0 bkgval  1.93375 ytmp-bkgval -1.93375
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 48 : xtmp 168.5  ytmp 2 bkgval  1.81437 ytmp-bkgval 0.185626
+[INFO] plotdata->Integral() 73 ( bins 60) hbkgplots[i]->Integral() 73 (bins 60
+[INFO] Channel  plots/fTest/multipdf_diMu0.7_BST_13TeV setting point 49 : xtmp 169.5  ytmp 1 bkgval  1.695 ytmp-bkgval -0.694995
+Info in <TCanvas::Print>: pdf file plots/fTest/multipdf_diMu0.7_BST_13TeV.pdf has been created
+[INFO] datfile for BiasStudy: ./dat/fTest_diMu0.7_BST.dat
+[RESULT] Recommended options
+Cat [diMu0.7_BST, 4]
+	Bernstein - 1
+	Exponential - 1
+	Laurent - 2
+	PowerLaw - 1

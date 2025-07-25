@@ -1,0 +1,38 @@
+ --> Processing ( ggH, diMu25_BST, 120, 2016 ) rate uncertainties
+ --> Processing ( VBF, diMu25_BST, 120, 2016 ) rate uncertainties
+ --> Processing (  WH, diMu25_BST, 120, 2016 ) rate uncertainties
+ --> Processing (  ZH, diMu25_BST, 120, 2016 ) rate uncertainties
+ --> Processing ( ttH, diMu25_BST, 120, 2016 ) rate uncertainties
+ --> Processing ( bbH, diMu25_BST, 120, 2016 ) rate uncertainties
+ --> Processing ( ggH, diMu25_BST, 125, 2016 ) rate uncertainties
+ --> Processing ( VBF, diMu25_BST, 125, 2016 ) rate uncertainties
+ --> Processing (  WH, diMu25_BST, 125, 2016 ) rate uncertainties
+ --> Processing (  ZH, diMu25_BST, 125, 2016 ) rate uncertainties
+ --> Processing ( ttH, diMu25_BST, 125, 2016 ) rate uncertainties
+ --> Processing ( bbH, diMu25_BST, 125, 2016 ) rate uncertainties
+ --> Processing ( ggH, diMu25_BST, 130, 2016 ) rate uncertainties
+ --> Processing ( VBF, diMu25_BST, 130, 2016 ) rate uncertainties
+ --> Processing (  WH, diMu25_BST, 130, 2016 ) rate uncertainties
+ --> Processing (  ZH, diMu25_BST, 130, 2016 ) rate uncertainties
+ --> Processing ( ttH, diMu25_BST, 130, 2016 ) rate uncertainties
+ --> Processing ( bbH, diMu25_BST, 130, 2016 ) rate uncertainties
+   proc         cat mass  year     nominalDataName       JEC       JER PhoNoR9Corr weight_MuID weight_HLT weight_L1PF weight_MuPF weight_PhoID weight_puwei
+0   ggH  diMu25_BST  120  2016  set_120_diMu25_BST  0.000258  0.000163    0.000009    0.008098   0.060118    0.004051    0.004234      0.00752     0.006932
+1   VBF  diMu25_BST  120  2016  set_120_diMu25_BST  0.000643  0.003908    0.000003    0.008128    0.06082    0.007834     0.00442     0.007662     0.007875
+2    WH  diMu25_BST  120  2016  set_120_diMu25_BST  0.000014   0.00074         0.0    0.008143   0.062351    0.004212    0.004701     0.007839     0.009263
+3    ZH  diMu25_BST  120  2016  set_120_diMu25_BST  0.000019  0.000211    0.000011    0.008064    0.06169    0.004213    0.004638     0.007827     0.003793
+4   ttH  diMu25_BST  120  2016  set_120_diMu25_BST  0.000144  0.000469    0.000004    0.007925   0.056545    0.005394    0.005343     0.007766     0.006321
+5   bbH  diMu25_BST  120  2016  set_120_diMu25_BST  0.001719  0.003652    0.000012       0.008   0.057541    0.004194    0.004608      0.00652     0.011642
+6   ggH  diMu25_BST  125  2016  set_125_diMu25_BST  0.000276  0.000384    0.000002    0.008008   0.059567    0.004332    0.004301     0.007587     0.009869
+7   VBF  diMu25_BST  125  2016  set_125_diMu25_BST  0.000394  0.003641    0.000009    0.008142   0.060902    0.007919    0.004325     0.008014     0.004313
+8    WH  diMu25_BST  125  2016  set_125_diMu25_BST  0.000232  0.000358    0.000006    0.008006   0.061543    0.004364    0.004736     0.008107      0.00433
+9    ZH  diMu25_BST  125  2016  set_125_diMu25_BST  0.000221  0.000583    0.000009    0.008053   0.061424    0.004321    0.004715     0.008088     0.006674
+10  ttH  diMu25_BST  125  2016  set_125_diMu25_BST  0.000196  0.000178    0.000015    0.007884   0.055747    0.005266    0.005249     0.008024     0.008091
+11  bbH  diMu25_BST  125  2016  set_125_diMu25_BST    0.0007  0.004129    0.000054    0.008082   0.059219    0.003317    0.004483     0.007329     0.036379
+12  ggH  diMu25_BST  130  2016  set_130_diMu25_BST  0.000238  0.001033    0.000003    0.007963   0.059761    0.004414    0.004362     0.007839     0.014346
+13  VBF  diMu25_BST  130  2016  set_130_diMu25_BST  0.000544  0.003188     0.00001    0.008035   0.059214    0.007982    0.004286      0.00799     0.007457
+14   WH  diMu25_BST  130  2016  set_130_diMu25_BST  0.000076  0.000202    0.000003    0.007984   0.061102    0.004685    0.004757     0.008295     0.002616
+15   ZH  diMu25_BST  130  2016  set_130_diMu25_BST  0.000038  0.000383         0.0    0.007975   0.060789    0.004074    0.004691      0.00828     0.000969
+16  ttH  diMu25_BST  130  2016  set_130_diMu25_BST  0.000355  0.000732    0.000002    0.007854   0.055808    0.005491    0.005304     0.008326     0.001938
+17  bbH  diMu25_BST  130  2016  set_130_diMu25_BST  0.000687  0.003113    0.000008    0.007905   0.059881      0.0041    0.004875     0.007026       0.0013
+ --> Successfully saved rate systematics as pkl file: /home/chenghan/HDalitzMu/CMSSW_11_3_4/src/HLLGFinalFits/Signal/syst/rate_syst_diMu25_BST_2016.pkl

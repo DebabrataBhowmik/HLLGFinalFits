@@ -5,7 +5,6 @@
 
 import os, sys
 sys.path.append("./tools")
-# sys.path.append("./config")
 
 import numpy as np
 import pandas as pd
@@ -20,11 +19,26 @@ from systematics import theory_systematics, experimental_systematics
 
 
 def main():
-    infiles = glob("./yields/*.pkl")
+    y_dir = "yields" if BLIND else "yields_unblind"
+    infiles = glob("./{}/*.pkl".format(y_dir))
     infiles.sort(key=str.lower)
     df_data = pd.DataFrame()
     for f in infiles:
         df_data = pd.concat([df_data, pd.read_pickle(f)], ignore_index=True, axis=0, sort=False)
+        
+    with pd.option_context('display.max_rows', None,
+                       'display.max_columns', None,
+                       'display.precision', 3,
+                       ):
+        with open("dataFrame.txt", "w") as of:
+            of.write(str(df_data))
+        #print(df_data)
+    #display(df.to_string())
+    #with open("dataFrame.txt", "w") as of:
+        #of.write(f)
+        #of.write(str(df_data))
+        #print(f)
+        #print(df_data)
 
     # Theory:
     print(" --> Adding theory systematics variations to dataFrame")
@@ -38,6 +52,8 @@ def main():
     for year in years:
         for cat in category__.keys():
             try:
+                if ("IsoMu" in cat and year != 2017): 
+                    continue
                 rate_file = "{}/syst/rate_syst_{}_{}.pkl".format(swd__, cat, year)
                 rate_list.append(pd.read_pickle(rate_file))
             except:
@@ -54,10 +70,9 @@ def main():
             df_data = addFactorySyst(df_data, s)
         if (s["type"] == "rate"):
             df_data = addRateSyst(df_data, s, df_rate)
-    print(df_data)
     
     mass_interp = np.linspace(massBaseList[0], massBaseList[-1], 11, endpoint=True).astype(int)
-    outDir = "{}/cards".format(dwd__)
+    outDir = "{}/cards".format(dwd__) if BLIND else "{}/cards_unblind".format(dwd__)
     if not os.path.exists(outDir):
         os.makedirs(outDir)
 
@@ -67,8 +82,10 @@ def main():
         # for mass in [125]:
             fdataName = "{}/datacard_{}_runII_{}_{}.txt".format(outDir, decayMode, cat, mass)
             print("[INFO] Creating the data card {}".format(fdataName))
-
-            dcw = DCWriter(fdataName, df_data, cat, mass, years)
+            years_tmp = years
+            if "IsoMu" in cat:
+                years_tmp = [2017]
+            dcw = DCWriter(fdataName, df_data, cat, mass, years_tmp, _auto_space=True)
             dcw.writePreamble()
             dcw.writeProcesses()
             for syst in theory_systematics:
@@ -83,4 +100,5 @@ def main():
 
 
 if __name__ == "__main__" :
+    BLIND = True
     main()

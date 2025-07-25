@@ -1,0 +1,782 @@
+nohup: ignoring input
+Expected limit for mass @120 GeV
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+Will use a-priori expected background instead of a-posteriori one.
+>>> method used is AsymptoticLimits
+SimNLL created with 10 channels, 0 generic constraints, 392 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.6244
+Expected 16.0%: r < 0.8535
+Expected 50.0%: r < 1.2109
+Expected 84.0%: r < 1.7274
+Expected 97.5%: r < 2.3765
+
+Done in 1.24 min (cpu), 1.24 min (real)
+---------------------------------------
+Expected limit for mass @121 GeV
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+Will use a-priori expected background instead of a-posteriori one.
+>>> method used is AsymptoticLimits
+SimNLL created with 10 channels, 0 generic constraints, 392 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.6010
+Expected 16.0%: r < 0.8332
+Expected 50.0%: r < 1.1836
+Expected 84.0%: r < 1.6884
+Expected 97.5%: r < 2.3228
+
+Done in 1.20 min (cpu), 1.20 min (real)
+---------------------------------------
+Expected limit for mass @122 GeV
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+Will use a-priori expected background instead of a-posteriori one.
+>>> method used is AsymptoticLimits
+SimNLL created with 10 channels, 0 generic constraints, 392 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.5891
+Expected 16.0%: r < 0.8122
+Expected 50.0%: r < 1.1602
+Expected 84.0%: r < 1.6550
+Expected 97.5%: r < 2.2841
+
+Done in 1.09 min (cpu), 1.09 min (real)
+---------------------------------------
+Expected limit for mass @123 GeV
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+Will use a-priori expected background instead of a-posteriori one.
+>>> method used is AsymptoticLimits
+SimNLL created with 10 channels, 0 generic constraints, 392 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.5832
+Expected 16.0%: r < 0.8084
+Expected 50.0%: r < 1.1484
+Expected 84.0%: r < 1.6428
+Expected 97.5%: r < 2.2569
+
+Done in 1.09 min (cpu), 1.09 min (real)
+---------------------------------------
+Expected limit for mass @124 GeV
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+Will use a-priori expected background instead of a-posteriori one.
+>>> method used is AsymptoticLimits
+SimNLL created with 10 channels, 0 generic constraints, 392 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.5942
+Expected 16.0%: r < 0.8166
+Expected 50.0%: r < 1.1523
+Expected 84.0%: r < 1.6438
+Expected 97.5%: r < 2.2542
+
+Done in 1.14 min (cpu), 1.14 min (real)
+---------------------------------------
+Expected limit for mass @125 GeV
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+Will use a-priori expected background instead of a-posteriori one.
+>>> method used is AsymptoticLimits
+SimNLL created with 10 channels, 0 generic constraints, 392 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.5987
+Expected 16.0%: r < 0.8150
+Expected 50.0%: r < 1.1523
+Expected 84.0%: r < 1.6392
+Expected 97.5%: r < 2.2584
+
+Done in 1.20 min (cpu), 1.20 min (real)
+---------------------------------------
+Expected limit for mass @126 GeV
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+Will use a-priori expected background instead of a-posteriori one.
+>>> method used is AsymptoticLimits
+SimNLL created with 10 channels, 0 generic constraints, 392 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.5946
+Expected 16.0%: r < 0.8094
+Expected 50.0%: r < 1.1445
+Expected 84.0%: r < 1.6327
+Expected 97.5%: r < 2.2462
+
+Done in 1.30 min (cpu), 1.30 min (real)
+---------------------------------------
+Expected limit for mass @127 GeV
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+Will use a-priori expected background instead of a-posteriori one.
+>>> method used is AsymptoticLimits
+SimNLL created with 10 channels, 0 generic constraints, 392 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.5861
+Expected 16.0%: r < 0.8055
+Expected 50.0%: r < 1.1367
+Expected 84.0%: r < 1.6306
+Expected 97.5%: r < 2.2512
+
+Done in 1.24 min (cpu), 1.24 min (real)
+---------------------------------------
+Expected limit for mass @128 GeV
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+Will use a-priori expected background instead of a-posteriori one.
+>>> method used is AsymptoticLimits
+SimNLL created with 10 channels, 0 generic constraints, 392 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.5821
+Expected 16.0%: r < 0.8000
+Expected 50.0%: r < 1.1289
+Expected 84.0%: r < 1.6239
+Expected 97.5%: r < 2.2528
+
+Done in 1.27 min (cpu), 1.27 min (real)
+---------------------------------------
+Expected limit for mass @129 GeV
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+Will use a-priori expected background instead of a-posteriori one.
+>>> method used is AsymptoticLimits
+SimNLL created with 10 channels, 0 generic constraints, 392 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.5777
+Expected 16.0%: r < 0.7930
+Expected 50.0%: r < 1.1289
+Expected 84.0%: r < 1.6194
+Expected 97.5%: r < 2.2640
+
+Done in 1.27 min (cpu), 1.27 min (real)
+---------------------------------------
+Expected limit for mass @130 GeV
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+Will use a-priori expected background instead of a-posteriori one.
+>>> method used is AsymptoticLimits
+SimNLL created with 10 channels, 0 generic constraints, 392 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+
+ -- AsymptoticLimits ( CLs ) --
+Expected  2.5%: r < 0.5757
+Expected 16.0%: r < 0.7860
+Expected 50.0%: r < 1.1250
+Expected 84.0%: r < 1.6183
+Expected 97.5%: r < 2.2732
+
+Done in 1.23 min (cpu), 1.24 min (real)
+---------------------------------------
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is GenerateOnly
+Done in 0.00 min (cpu), 0.00 min (real)
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is GenerateOnly
+Done in 0.00 min (cpu), 0.00 min (real)
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is GenerateOnly
+Done in 0.00 min (cpu), 0.00 min (real)
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is GenerateOnly
+Done in 0.00 min (cpu), 0.00 min (real)
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is GenerateOnly
+Done in 0.00 min (cpu), 0.00 min (real)
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is GenerateOnly
+Done in 0.00 min (cpu), 0.00 min (real)
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is GenerateOnly
+Done in 0.00 min (cpu), 0.00 min (real)
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is GenerateOnly
+Done in 0.00 min (cpu), 0.00 min (real)
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is GenerateOnly
+Done in 0.00 min (cpu), 0.00 min (real)
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is GenerateOnly
+Done in 0.00 min (cpu), 0.00 min (real)
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is GenerateOnly
+Done in 0.00 min (cpu), 0.00 min (real)
+=============================================
+Expected significance for mass @120 GeV
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is Significance
+
+ -- Significance -- 
+Significance: 1.70261
+       (p-value = 0.0443208)
+Done in 0.12 min (cpu), 0.12 min (real)
+Printing Message Summary From ... combine_logger.out
+----------------------------------------------
+Messages of type INFO : 10
+Messages of type DEBUG : 0
+Messages of type ERROR : 0
+----------------------------------------------
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_BST_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_BST_13TeV 
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is Significance
+
+ -- Significance -- 
+Significance: 0
+       (p-value = 0.5)
+Done in 0.11 min (cpu), 0.11 min (real)
+Printing Message Summary From ... combine_logger.out
+----------------------------------------------
+Messages of type INFO : 10
+Messages of type DEBUG : 0
+Messages of type ERROR : 0
+----------------------------------------------
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_BST_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_BST_13TeV 
+=============================================
+=============================================
+Expected significance for mass @121 GeV
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is Significance
+
+ -- Significance -- 
+Significance: 1.70264
+       (p-value = 0.044318)
+Done in 0.10 min (cpu), 0.10 min (real)
+Printing Message Summary From ... combine_logger.out
+----------------------------------------------
+Messages of type INFO : 10
+Messages of type DEBUG : 0
+Messages of type ERROR : 0
+----------------------------------------------
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_BST_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_BST_13TeV 
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is Significance
+
+ -- Significance -- 
+Significance: 0
+       (p-value = 0.5)
+Done in 0.12 min (cpu), 0.12 min (real)
+Printing Message Summary From ... combine_logger.out
+----------------------------------------------
+Messages of type INFO : 10
+Messages of type DEBUG : 0
+Messages of type ERROR : 0
+----------------------------------------------
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_BST_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_BST_13TeV 
+=============================================
+=============================================
+Expected significance for mass @122 GeV
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is Significance
+
+ -- Significance -- 
+Significance: 1.70339
+       (p-value = 0.0442476)
+Done in 0.09 min (cpu), 0.09 min (real)
+Printing Message Summary From ... combine_logger.out
+----------------------------------------------
+Messages of type INFO : 10
+Messages of type DEBUG : 0
+Messages of type ERROR : 0
+----------------------------------------------
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_BST_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_BST_13TeV 
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is Significance
+
+ -- Significance -- 
+Significance: 0.263704
+       (p-value = 0.396004)
+Done in 0.12 min (cpu), 0.12 min (real)
+Printing Message Summary From ... combine_logger.out
+----------------------------------------------
+Messages of type INFO : 10
+Messages of type DEBUG : 0
+Messages of type ERROR : 0
+----------------------------------------------
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_BST_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_BST_13TeV 
+=============================================
+=============================================
+Expected significance for mass @123 GeV
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is Significance
+
+ -- Significance -- 
+Significance: 1.72292
+       (p-value = 0.0424519)
+Done in 0.10 min (cpu), 0.10 min (real)
+Printing Message Summary From ... combine_logger.out
+----------------------------------------------
+Messages of type INFO : 10
+Messages of type DEBUG : 0
+Messages of type ERROR : 0
+----------------------------------------------
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_BST_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_BST_13TeV 
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is Significance
+
+ -- Significance -- 
+Significance: 0.842194
+       (p-value = 0.19984)
+Done in 0.17 min (cpu), 0.17 min (real)
+Printing Message Summary From ... combine_logger.out
+----------------------------------------------
+Messages of type INFO : 10
+Messages of type DEBUG : 0
+Messages of type ERROR : 0
+----------------------------------------------
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_BST_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_BST_13TeV 
+=============================================
+=============================================
+Expected significance for mass @124 GeV
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is Significance
+
+ -- Significance -- 
+Significance: 1.75702
+       (p-value = 0.0394572)
+Done in 0.11 min (cpu), 0.11 min (real)
+Printing Message Summary From ... combine_logger.out
+----------------------------------------------
+Messages of type INFO : 10
+Messages of type DEBUG : 0
+Messages of type ERROR : 0
+----------------------------------------------
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_BST_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_BST_13TeV 
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is Significance
+
+ -- Significance -- 
+Significance: 1.48969
+       (p-value = 0.0681525)
+Done in 0.10 min (cpu), 0.11 min (real)
+Printing Message Summary From ... combine_logger.out
+----------------------------------------------
+Messages of type INFO : 10
+Messages of type DEBUG : 0
+Messages of type ERROR : 0
+----------------------------------------------
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_BST_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_BST_13TeV 
+=============================================
+=============================================
+Expected significance for mass @125 GeV
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is Significance
+
+ -- Significance -- 
+Significance: 1.77603
+       (p-value = 0.037864)
+Done in 0.13 min (cpu), 0.13 min (real)
+Printing Message Summary From ... combine_logger.out
+----------------------------------------------
+Messages of type INFO : 10
+Messages of type DEBUG : 0
+Messages of type ERROR : 0
+----------------------------------------------
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_BST_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_BST_13TeV 
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is Significance
+
+ -- Significance -- 
+Significance: 1.77603
+       (p-value = 0.037864)
+Done in 0.14 min (cpu), 0.14 min (real)
+Printing Message Summary From ... combine_logger.out
+----------------------------------------------
+Messages of type INFO : 10
+Messages of type DEBUG : 0
+Messages of type ERROR : 0
+----------------------------------------------
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_BST_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_BST_13TeV 
+=============================================
+=============================================
+Expected significance for mass @126 GeV
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is Significance
+
+ -- Significance -- 
+Significance: 1.781
+       (p-value = 0.0374559)
+Done in 0.12 min (cpu), 0.12 min (real)
+Printing Message Summary From ... combine_logger.out
+----------------------------------------------
+Messages of type INFO : 10
+Messages of type DEBUG : 0
+Messages of type ERROR : 0
+----------------------------------------------
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_BST_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_BST_13TeV 
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is Significance
+
+ -- Significance -- 
+Significance: 1.49634
+       (p-value = 0.067282)
+Done in 0.10 min (cpu), 0.10 min (real)
+Printing Message Summary From ... combine_logger.out
+----------------------------------------------
+Messages of type INFO : 10
+Messages of type DEBUG : 0
+Messages of type ERROR : 0
+----------------------------------------------
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_BST_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_BST_13TeV 
+=============================================
+=============================================
+Expected significance for mass @127 GeV
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is Significance
+
+ -- Significance -- 
+Significance: 1.78524
+       (p-value = 0.0371116)
+Done in 0.11 min (cpu), 0.11 min (real)
+Printing Message Summary From ... combine_logger.out
+----------------------------------------------
+Messages of type INFO : 10
+Messages of type DEBUG : 0
+Messages of type ERROR : 0
+----------------------------------------------
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_BST_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_BST_13TeV 
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is Significance
+
+ -- Significance -- 
+Significance: 0.891239
+       (p-value = 0.1864)
+Done in 0.09 min (cpu), 0.09 min (real)
+Printing Message Summary From ... combine_logger.out
+----------------------------------------------
+Messages of type INFO : 10
+Messages of type DEBUG : 0
+Messages of type ERROR : 0
+----------------------------------------------
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_BST_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_BST_13TeV 
+=============================================
+=============================================
+Expected significance for mass @128 GeV
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is Significance
+
+ -- Significance -- 
+Significance: 1.79067
+       (p-value = 0.0366729)
+Done in 0.10 min (cpu), 0.10 min (real)
+Printing Message Summary From ... combine_logger.out
+----------------------------------------------
+Messages of type INFO : 10
+Messages of type DEBUG : 0
+Messages of type ERROR : 0
+----------------------------------------------
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_BST_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_BST_13TeV 
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is Significance
+
+ -- Significance -- 
+Significance: 0.341822
+       (p-value = 0.366243)
+Done in 0.12 min (cpu), 0.12 min (real)
+Printing Message Summary From ... combine_logger.out
+----------------------------------------------
+Messages of type INFO : 10
+Messages of type DEBUG : 0
+Messages of type ERROR : 0
+----------------------------------------------
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_BST_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_BST_13TeV 
+=============================================
+=============================================
+Expected significance for mass @129 GeV
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is Significance
+
+ -- Significance -- 
+Significance: 1.79768
+       (p-value = 0.0361139)
+Done in 0.10 min (cpu), 0.10 min (real)
+Printing Message Summary From ... combine_logger.out
+----------------------------------------------
+Messages of type INFO : 10
+Messages of type DEBUG : 0
+Messages of type ERROR : 0
+----------------------------------------------
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_BST_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_BST_13TeV 
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is Significance
+
+ -- Significance -- 
+Significance: 0.00530413
+       (p-value = 0.497884)
+Done in 0.12 min (cpu), 0.12 min (real)
+Printing Message Summary From ... combine_logger.out
+----------------------------------------------
+Messages of type INFO : 10
+Messages of type DEBUG : 0
+Messages of type ERROR : 0
+----------------------------------------------
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_BST_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_BST_13TeV 
+=============================================
+=============================================
+Expected significance for mass @130 GeV
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is Significance
+
+ -- Significance -- 
+Significance: 1.80375
+       (p-value = 0.035635)
+Done in 0.11 min (cpu), 0.11 min (real)
+Printing Message Summary From ... combine_logger.out
+----------------------------------------------
+Messages of type INFO : 10
+Messages of type DEBUG : 0
+Messages of type ERROR : 0
+----------------------------------------------
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_BST_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_BST_13TeV 
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is Significance
+
+ -- Significance -- 
+Significance: 0
+       (p-value = 0.5)
+Done in 0.12 min (cpu), 0.12 min (real)
+Printing Message Summary From ... combine_logger.out
+----------------------------------------------
+Messages of type INFO : 10
+Messages of type DEBUG : 0
+Messages of type ERROR : 0
+----------------------------------------------
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu9_BST_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBHR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EBLR9_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_EE_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_VBF_13TeV 
+INFO: (function: addDiscreteNuisances) Combine.cc: 1220 -- Adding discrete pdfindex_diMu50_BST_13TeV 
+=============================================

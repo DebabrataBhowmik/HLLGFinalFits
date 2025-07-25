@@ -1,0 +1,2 @@
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormRange' created with bounds [110,170]
+eff_sigma = 1.60 [GeV]

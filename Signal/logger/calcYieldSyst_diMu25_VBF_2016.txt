@@ -1,0 +1,38 @@
+ --> Processing ( ggH, diMu25_VBF, 120, 2016 ) rate uncertainties
+ --> Processing ( VBF, diMu25_VBF, 120, 2016 ) rate uncertainties
+ --> Processing (  WH, diMu25_VBF, 120, 2016 ) rate uncertainties
+ --> Processing (  ZH, diMu25_VBF, 120, 2016 ) rate uncertainties
+ --> Processing ( ttH, diMu25_VBF, 120, 2016 ) rate uncertainties
+ --> Processing ( bbH, diMu25_VBF, 120, 2016 ) rate uncertainties
+ --> Processing ( ggH, diMu25_VBF, 125, 2016 ) rate uncertainties
+ --> Processing ( VBF, diMu25_VBF, 125, 2016 ) rate uncertainties
+ --> Processing (  WH, diMu25_VBF, 125, 2016 ) rate uncertainties
+ --> Processing (  ZH, diMu25_VBF, 125, 2016 ) rate uncertainties
+ --> Processing ( ttH, diMu25_VBF, 125, 2016 ) rate uncertainties
+ --> Processing ( bbH, diMu25_VBF, 125, 2016 ) rate uncertainties
+ --> Processing ( ggH, diMu25_VBF, 130, 2016 ) rate uncertainties
+ --> Processing ( VBF, diMu25_VBF, 130, 2016 ) rate uncertainties
+ --> Processing (  WH, diMu25_VBF, 130, 2016 ) rate uncertainties
+ --> Processing (  ZH, diMu25_VBF, 130, 2016 ) rate uncertainties
+ --> Processing ( ttH, diMu25_VBF, 130, 2016 ) rate uncertainties
+ --> Processing ( bbH, diMu25_VBF, 130, 2016 ) rate uncertainties
+   proc         cat mass  year     nominalDataName       JEC       JER PhoNoR9Corr weight_MuID weight_HLT weight_L1PF weight_MuPF weight_PhoID weight_puwei
+0   ggH  diMu25_VBF  120  2016  set_120_diMu25_VBF  0.004358  0.007378    0.000009    0.008039   0.058817    0.008687     0.00438     0.007449       0.0116
+1   VBF  diMu25_VBF  120  2016  set_120_diMu25_VBF  0.000782   0.00708    0.000006    0.007998    0.05819    0.010488    0.004192     0.007569      0.00523
+2    WH  diMu25_VBF  120  2016  set_120_diMu25_VBF  0.004397  0.021825    0.000059    0.007823   0.063403    0.012599    0.004293      0.00771     0.010227
+3    ZH  diMu25_VBF  120  2016  set_120_diMu25_VBF  0.002531  0.009382    0.000054    0.007951   0.060526    0.009479    0.004381     0.007647     0.024403
+4   ttH  diMu25_VBF  120  2016  set_120_diMu25_VBF  0.002639  0.013122    0.000035    0.007827   0.054548     0.01312    0.005115     0.007845     0.001401
+5   bbH  diMu25_VBF  120  2016  set_120_diMu25_VBF  0.055986  0.078513    0.000136    0.008034   0.020313     0.00824    0.004211     0.006421     0.093143
+6   ggH  diMu25_VBF  125  2016  set_125_diMu25_VBF  0.004475  0.002738         0.0    0.008006   0.054947    0.007929    0.003921       0.0075     0.024747
+7   VBF  diMu25_VBF  125  2016  set_125_diMu25_VBF  0.000895  0.004536    0.000007    0.008047   0.056572     0.01008    0.004144     0.007877     0.001139
+8    WH  diMu25_VBF  125  2016  set_125_diMu25_VBF   0.01523  0.021517    0.000009      0.0079   0.062108    0.011478    0.004894     0.008372     0.029737
+9    ZH  diMu25_VBF  125  2016  set_125_diMu25_VBF  0.009437  0.023515    0.000006     0.00784   0.060692    0.013503    0.004319      0.00863      0.03135
+10  ttH  diMu25_VBF  125  2016  set_125_diMu25_VBF  0.001239  0.001227         0.0    0.007735   0.052702    0.011069    0.005331     0.007889     0.011583
+11  bbH  diMu25_VBF  125  2016  set_125_diMu25_VBF  0.104478       0.5    0.003582    0.001165   0.006931    0.035726    0.016167     0.001137          0.5
+12  ggH  diMu25_VBF  130  2016  set_130_diMu25_VBF  0.004782  0.022107    0.000078    0.008006   0.056507    0.011094    0.004367     0.007577     0.022547
+13  VBF  diMu25_VBF  130  2016  set_130_diMu25_VBF  0.001196  0.006519    0.000004     0.00792   0.056604    0.011424    0.004286     0.007962     0.001202
+14   WH  diMu25_VBF  130  2016  set_130_diMu25_VBF  0.005227  0.012046      0.0001    0.007584   0.054587     0.00919    0.004451      0.00835     0.039332
+15   ZH  diMu25_VBF  130  2016  set_130_diMu25_VBF  0.002226  0.026172    0.000076    0.007654   0.056733    0.012164    0.004459     0.008768     0.024184
+16  ttH  diMu25_VBF  130  2016  set_130_diMu25_VBF  0.003596  0.007894    0.000013    0.007808   0.052273     0.01154     0.00514     0.008059     0.010533
+17  bbH  diMu25_VBF  130  2016  set_130_diMu25_VBF  0.019951  0.045167    0.000248    0.006544   0.030537    0.000299    0.006526     0.008878     0.050413
+ --> Successfully saved rate systematics as pkl file: /home/chenghan/HDalitzMu/CMSSW_11_3_4/src/HLLGFinalFits/Signal/syst/rate_syst_diMu25_VBF_2016.pkl

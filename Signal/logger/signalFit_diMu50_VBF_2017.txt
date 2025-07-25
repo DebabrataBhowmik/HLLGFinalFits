@@ -1,0 +1,1866 @@
+[92m--> Performing the nominal signal fitting of ggH @ 120GeV[0m
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormRange' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_120_diMu50_VBF) constructing test statistic for sub-range named NormRange
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormalizationRangeForNormRange' created with bounds [110,170]
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'fit_nll_SigPdf_set_120_diMu50_VBF' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_120_diMu50_VBF) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (DCB,Gaus)
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SigPdf) Calculating sum-of-weights-squared correction matrix for covariance matrix
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: deactivating const optimization
+
+  RooFitResult: minimized FCN value: 2.30624e-06, estimated distance to minimum: 3.31331e-12
+                covariance matrix quality: Unknown, matrix was externally provided
+                Status : MINIMIZE=0 HESSE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                a1_dcb    3.1638e+00 +/-  6.00e+00
+                a2_dcb    1.1280e+00 +/-  3.61e+00
+              frac_dcb    9.8994e-01 +/-  4.96e-03
+              mean_dcb    1.1968e+02 +/-  5.28e+00
+                n1_dcb    3.8000e+00 +/-  4.79e+00
+                n2_dcb    8.1986e+00 +/-  3.82e+00
+             sigma_dcb    9.0857e-01 +/-  1.70e+00
+            sigma_gaus    1.7511e+01 +/-  1.12e+01
+
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (DCB)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (Gaus)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+
+[92m--> Performing the nominal signal fitting of ggH @ 125GeV[0m
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormRange' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_125_diMu50_VBF) constructing test statistic for sub-range named NormRange
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormalizationRangeForNormRange' created with bounds [110,170]
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'fit_nll_SigPdf_set_125_diMu50_VBF' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_125_diMu50_VBF) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (DCB,Gaus)
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SigPdf) Calculating sum-of-weights-squared correction matrix for covariance matrix
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: deactivating const optimization
+
+  RooFitResult: minimized FCN value: 2.7364e-06, estimated distance to minimum: 3.7832e-08
+                covariance matrix quality: Unknown, matrix was externally provided
+                Status : MINIMIZE=0 HESSE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                a1_dcb    1.8464e+00 +/-  3.99e-01
+                a2_dcb    1.5596e+00 +/-  6.93e-01
+              frac_dcb    9.9000e-01 +/-  2.64e-04
+              mean_dcb    1.2496e+02 +/-  2.07e-01
+                n1_dcb    8.8437e-01 +/-  7.65e-01
+                n2_dcb    9.8701e+00 +/-  3.97e+00
+             sigma_dcb    1.6305e+00 +/-  2.10e-01
+            sigma_gaus    1.6000e+01 +/-  2.29e-03
+
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (DCB)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (Gaus)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+
+[92m--> Performing the nominal signal fitting of ggH @ 130GeV[0m
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormRange' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_130_diMu50_VBF) constructing test statistic for sub-range named NormRange
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormalizationRangeForNormRange' created with bounds [110,170]
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'fit_nll_SigPdf_set_130_diMu50_VBF' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_130_diMu50_VBF) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (DCB,Gaus)
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SigPdf) Calculating sum-of-weights-squared correction matrix for covariance matrix
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: deactivating const optimization
+
+  RooFitResult: minimized FCN value: 3.23861e-06, estimated distance to minimum: 1.99276e-08
+                covariance matrix quality: Unknown, matrix was externally provided
+                Status : MINIMIZE=0 HESSE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                a1_dcb    1.1432e+00 +/-  4.96e-01
+                a2_dcb    2.2894e+00 +/-  3.58e+00
+              frac_dcb    9.8971e-01 +/-  4.25e-03
+              mean_dcb    1.2960e+02 +/-  3.76e-01
+                n1_dcb    6.4638e+00 +/-  4.27e+00
+                n2_dcb    3.9518e+00 +/-  1.38e+01
+             sigma_dcb    1.8348e+00 +/-  6.37e-01
+            sigma_gaus    1.6013e+01 +/-  1.17e+00
+
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (DCB)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (Gaus)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormRange' created with bounds [110,170]
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_120_ggH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ggH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ggH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ggH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ggH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ggH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ggH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ggH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ggH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ggH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ggH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ggH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_121_ggH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ggH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ggH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ggH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ggH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ggH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ggH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ggH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ggH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ggH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ggH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ggH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_122_ggH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ggH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ggH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ggH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ggH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ggH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ggH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ggH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ggH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ggH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ggH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ggH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_123_ggH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ggH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ggH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ggH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ggH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ggH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ggH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ggH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ggH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ggH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ggH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ggH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_124_ggH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ggH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ggH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ggH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ggH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ggH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ggH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ggH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ggH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ggH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ggH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ggH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_125_ggH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ggH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ggH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ggH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ggH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ggH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ggH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ggH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ggH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ggH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ggH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ggH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_126_ggH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ggH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ggH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ggH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ggH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ggH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ggH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ggH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ggH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ggH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ggH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ggH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_127_ggH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ggH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ggH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ggH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ggH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ggH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ggH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ggH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ggH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ggH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ggH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ggH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_128_ggH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ggH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ggH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ggH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ggH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ggH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ggH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ggH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ggH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ggH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ggH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ggH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_129_ggH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ggH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ggH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ggH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ggH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ggH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ggH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ggH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ggH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ggH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ggH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ggH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_130_ggH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ggH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ggH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ggH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ggH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ggH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ggH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ggH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ggH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ggH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ggH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ggH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+[92m--> Performing the nominal signal fitting of VBF @ 120GeV[0m
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormRange' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_120_diMu50_VBF) constructing test statistic for sub-range named NormRange
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormalizationRangeForNormRange' created with bounds [110,170]
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'fit_nll_SigPdf_set_120_diMu50_VBF' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_120_diMu50_VBF) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (DCB,Gaus)
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SigPdf) Calculating sum-of-weights-squared correction matrix for covariance matrix
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: deactivating const optimization
+
+  RooFitResult: minimized FCN value: 4.06249e-07, estimated distance to minimum: 7.97458e-10
+                covariance matrix quality: Unknown, matrix was externally provided
+                Status : MINIMIZE=0 HESSE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                a1_dcb    1.1427e+00 +/-  3.39e-03
+                a2_dcb    2.2340e+00 +/-  2.05e-03
+              frac_dcb    9.8979e-01 +/-  1.03e-06
+              mean_dcb    1.1985e+02 +/-  1.85e-02
+                n1_dcb    6.2314e+00 +/-  1.66e-04
+                n2_dcb    3.8146e+00 +/-  3.58e-04
+             sigma_dcb    1.3617e+00 +/-  1.58e-03
+            sigma_gaus    1.6001e+01 +/-  6.86e-06
+
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (DCB)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (Gaus)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+
+[92m--> Performing the nominal signal fitting of VBF @ 125GeV[0m
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormRange' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_125_diMu50_VBF) constructing test statistic for sub-range named NormRange
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormalizationRangeForNormRange' created with bounds [110,170]
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'fit_nll_SigPdf_set_125_diMu50_VBF' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_125_diMu50_VBF) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (DCB,Gaus)
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SigPdf) Calculating sum-of-weights-squared correction matrix for covariance matrix
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: deactivating const optimization
+
+  RooFitResult: minimized FCN value: 4.76543e-07, estimated distance to minimum: 1.33109e-09
+                covariance matrix quality: Unknown, matrix was externally provided
+                Status : MINIMIZE=0 HESSE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                a1_dcb    1.0922e+00 +/-  2.89e-01
+                a2_dcb    2.1235e+00 +/-  3.17e-01
+              frac_dcb    9.8887e-01 +/-  3.55e-03
+              mean_dcb    1.2491e+02 +/-  6.58e-02
+                n1_dcb    5.5271e+00 +/-  7.63e+00
+                n2_dcb    3.5713e+00 +/-  1.61e+00
+             sigma_dcb    1.4214e+00 +/-  8.04e-02
+            sigma_gaus    1.6000e+01 +/-  1.18e-02
+
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (DCB)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (Gaus)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+
+[92m--> Performing the nominal signal fitting of VBF @ 130GeV[0m
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormRange' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_130_diMu50_VBF) constructing test statistic for sub-range named NormRange
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormalizationRangeForNormRange' created with bounds [110,170]
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'fit_nll_SigPdf_set_130_diMu50_VBF' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_130_diMu50_VBF) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (DCB,Gaus)
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SigPdf) Calculating sum-of-weights-squared correction matrix for covariance matrix
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: deactivating const optimization
+
+  RooFitResult: minimized FCN value: 5.35914e-07, estimated distance to minimum: 3.66035e-10
+                covariance matrix quality: Unknown, matrix was externally provided
+                Status : MINIMIZE=0 HESSE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                a1_dcb    1.1694e+00 +/-  1.16e-01
+                a2_dcb    1.5840e+00 +/-  1.70e-01
+              frac_dcb    9.8998e-01 +/-  4.42e-04
+              mean_dcb    1.2980e+02 +/-  6.46e-02
+                n1_dcb    3.4206e+00 +/-  8.27e-01
+                n2_dcb    8.2744e+00 +/-  4.38e+00
+             sigma_dcb    1.3425e+00 +/-  5.93e-02
+            sigma_gaus    1.6007e+01 +/-  5.17e-01
+
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (DCB)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (Gaus)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormRange' created with bounds [110,170]
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_120_VBF_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_VBF_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_VBF_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_VBF_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_VBF_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_VBF_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_VBF_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_VBF_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_VBF_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_VBF_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_VBF_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_VBF_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_121_VBF_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_VBF_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_VBF_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_VBF_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_VBF_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_VBF_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_VBF_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_VBF_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_VBF_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_VBF_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_VBF_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_VBF_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_122_VBF_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_VBF_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_VBF_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_VBF_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_VBF_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_VBF_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_VBF_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_VBF_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_VBF_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_VBF_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_VBF_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_VBF_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_123_VBF_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_VBF_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_VBF_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_VBF_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_VBF_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_VBF_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_VBF_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_VBF_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_VBF_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_VBF_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_VBF_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_VBF_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_124_VBF_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_VBF_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_VBF_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_VBF_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_VBF_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_VBF_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_VBF_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_VBF_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_VBF_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_VBF_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_VBF_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_VBF_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_125_VBF_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_VBF_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_VBF_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_VBF_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_VBF_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_VBF_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_VBF_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_VBF_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_VBF_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_VBF_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_VBF_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_VBF_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_126_VBF_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_VBF_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_VBF_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_VBF_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_VBF_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_VBF_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_VBF_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_VBF_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_VBF_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_VBF_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_VBF_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_VBF_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_127_VBF_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_VBF_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_VBF_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_VBF_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_VBF_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_VBF_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_VBF_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_VBF_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_VBF_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_VBF_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_VBF_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_VBF_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_128_VBF_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_VBF_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_VBF_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_VBF_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_VBF_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_VBF_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_VBF_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_VBF_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_VBF_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_VBF_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_VBF_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_VBF_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_129_VBF_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_VBF_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_VBF_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_VBF_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_VBF_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_VBF_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_VBF_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_VBF_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_VBF_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_VBF_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_VBF_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_VBF_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_130_VBF_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_VBF_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_VBF_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_VBF_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_VBF_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_VBF_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_VBF_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_VBF_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_VBF_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_VBF_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_VBF_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_VBF_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+[92m--> Performing the nominal signal fitting of WH @ 120GeV[0m
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormRange' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_120_diMu50_VBF) constructing test statistic for sub-range named NormRange
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormalizationRangeForNormRange' created with bounds [110,170]
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'fit_nll_SigPdf_set_120_diMu50_VBF' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_120_diMu50_VBF) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (DCB,Gaus)
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SigPdf) Calculating sum-of-weights-squared correction matrix for covariance matrix
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: deactivating const optimization
+
+  RooFitResult: minimized FCN value: 4.28637e-09, estimated distance to minimum: 6.48901e-11
+                covariance matrix quality: Unknown, matrix was externally provided
+                Status : MINIMIZE=0 HESSE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                a1_dcb    1.0354e+00 +/-  3.20e-04
+                a2_dcb    2.1859e+00 +/-  3.09e-04
+              frac_dcb    9.3867e-01 +/-  1.83e-06
+              mean_dcb    1.1995e+02 +/-  2.22e-03
+                n1_dcb    5.3225e+00 +/-  2.94e-05
+                n2_dcb    3.3842e+00 +/-  4.24e-05
+             sigma_dcb    1.6377e+00 +/-  1.29e-04
+            sigma_gaus    1.6392e+01 +/-  3.61e-05
+
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (DCB)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (Gaus)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+
+[92m--> Performing the nominal signal fitting of WH @ 125GeV[0m
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormRange' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_125_diMu50_VBF) constructing test statistic for sub-range named NormRange
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormalizationRangeForNormRange' created with bounds [110,170]
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'fit_nll_SigPdf_set_125_diMu50_VBF' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_125_diMu50_VBF) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (DCB,Gaus)
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SigPdf) Calculating sum-of-weights-squared correction matrix for covariance matrix
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: deactivating const optimization
+
+  RooFitResult: minimized FCN value: 3.81793e-09, estimated distance to minimum: 3.72588e-11
+                covariance matrix quality: Unknown, matrix was externally provided
+                Status : MINIMIZE=0 HESSE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                a1_dcb    1.0728e+00 +/-  2.47e-01
+                a2_dcb    2.2207e+00 +/-  1.12e+00
+              frac_dcb    9.3967e-01 +/-  4.49e-02
+              mean_dcb    1.2475e+02 +/-  1.89e-01
+                n1_dcb    5.0475e+00 +/-  4.68e+00
+                n2_dcb    3.5394e+00 +/-  3.48e+00
+             sigma_dcb    1.4178e+00 +/-  2.00e-01
+            sigma_gaus    1.6000e+01 +/-  3.53e-02
+
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (DCB)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (Gaus)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+
+[92m--> Performing the nominal signal fitting of WH @ 130GeV[0m
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormRange' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_130_diMu50_VBF) constructing test statistic for sub-range named NormRange
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormalizationRangeForNormRange' created with bounds [110,170]
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'fit_nll_SigPdf_set_130_diMu50_VBF' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_130_diMu50_VBF) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (DCB,Gaus)
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SigPdf) Calculating sum-of-weights-squared correction matrix for covariance matrix
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: deactivating const optimization
+
+  RooFitResult: minimized FCN value: 3.93928e-09, estimated distance to minimum: 5.95483e-11
+                covariance matrix quality: Unknown, matrix was externally provided
+                Status : MINIMIZE=0 HESSE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                a1_dcb    1.0651e+00 +/-  3.08e-01
+                a2_dcb    2.1242e+00 +/-  3.68e-01
+              frac_dcb    9.4077e-01 +/-  4.80e-02
+              mean_dcb    1.2991e+02 +/-  2.20e-01
+                n1_dcb    5.5000e+00 +/-  4.74e+00
+                n2_dcb    3.3996e+00 +/-  2.82e+00
+             sigma_dcb    1.6373e+00 +/-  3.12e-01
+            sigma_gaus    1.6000e+01 +/-  1.49e-01
+
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (DCB)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (Gaus)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormRange' created with bounds [110,170]
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_120_WH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_WH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_WH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_WH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_WH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_WH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_WH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_WH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_WH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_WH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_WH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_WH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_121_WH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_WH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_WH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_WH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_WH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_WH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_WH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_WH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_WH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_WH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_WH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_WH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_122_WH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_WH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_WH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_WH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_WH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_WH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_WH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_WH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_WH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_WH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_WH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_WH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_123_WH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_WH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_WH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_WH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_WH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_WH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_WH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_WH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_WH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_WH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_WH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_WH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_124_WH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_WH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_WH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_WH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_WH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_WH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_WH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_WH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_WH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_WH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_WH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_WH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_125_WH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_WH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_WH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_WH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_WH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_WH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_WH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_WH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_WH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_WH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_WH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_WH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_126_WH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_WH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_WH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_WH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_WH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_WH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_WH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_WH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_WH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_WH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_WH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_WH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_127_WH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_WH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_WH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_WH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_WH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_WH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_WH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_WH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_WH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_WH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_WH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_WH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_128_WH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_WH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_WH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_WH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_WH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_WH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_WH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_WH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_WH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_WH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_WH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_WH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_129_WH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_WH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_WH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_WH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_WH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_WH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_WH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_WH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_WH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_WH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_WH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_WH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_130_WH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_WH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_WH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_WH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_WH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_WH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_WH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_WH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_WH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_WH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_WH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_WH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+[92m--> Performing the nominal signal fitting of ZH @ 120GeV[0m
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormRange' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_120_diMu50_VBF) constructing test statistic for sub-range named NormRange
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormalizationRangeForNormRange' created with bounds [110,170]
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'fit_nll_SigPdf_set_120_diMu50_VBF' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_120_diMu50_VBF) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (DCB,Gaus)
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SigPdf) Calculating sum-of-weights-squared correction matrix for covariance matrix
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: deactivating const optimization
+
+  RooFitResult: minimized FCN value: 1.49285e-09, estimated distance to minimum: 3.95415e-11
+                covariance matrix quality: Unknown, matrix was externally provided
+                Status : MINIMIZE=0 HESSE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                a1_dcb    1.1296e+00 +/-  1.35e-04
+                a2_dcb    2.1612e+00 +/-  1.72e-04
+              frac_dcb    9.4760e-01 +/-  1.12e-06
+              mean_dcb    1.2001e+02 +/-  1.50e-03
+                n1_dcb    5.7885e+00 +/-  1.12e-05
+                n2_dcb    3.4732e+00 +/-  2.44e-05
+             sigma_dcb    1.5963e+00 +/-  7.90e-05
+            sigma_gaus    1.6002e+01 +/-  8.81e-07
+
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (DCB)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (Gaus)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+
+[92m--> Performing the nominal signal fitting of ZH @ 125GeV[0m
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormRange' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_125_diMu50_VBF) constructing test statistic for sub-range named NormRange
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormalizationRangeForNormRange' created with bounds [110,170]
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'fit_nll_SigPdf_set_125_diMu50_VBF' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_125_diMu50_VBF) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (DCB,Gaus)
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SigPdf) Calculating sum-of-weights-squared correction matrix for covariance matrix
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: deactivating const optimization
+
+  RooFitResult: minimized FCN value: 1.38563e-09, estimated distance to minimum: 2.64963e-11
+                covariance matrix quality: Unknown, matrix was externally provided
+                Status : MINIMIZE=0 HESSE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                a1_dcb    1.1338e+00 +/-  5.42e+01
+                a2_dcb    2.1641e+00 +/-  4.23e+01
+              frac_dcb    9.5536e-01 +/-  9.33e-01
+              mean_dcb    1.2499e+02 +/-  3.54e+01
+                n1_dcb    5.7767e+00 +/-  5.95e+01
+                n2_dcb    3.4267e+00 +/-  1.46e+01
+             sigma_dcb    1.6868e+00 +/-  3.95e+01
+            sigma_gaus    1.6001e+01 +/-  1.53e-01
+
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (DCB)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (Gaus)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+
+[92m--> Performing the nominal signal fitting of ZH @ 130GeV[0m
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormRange' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_130_diMu50_VBF) constructing test statistic for sub-range named NormRange
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormalizationRangeForNormRange' created with bounds [110,170]
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'fit_nll_SigPdf_set_130_diMu50_VBF' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_130_diMu50_VBF) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (DCB,Gaus)
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SigPdf) Calculating sum-of-weights-squared correction matrix for covariance matrix
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: deactivating const optimization
+
+  RooFitResult: minimized FCN value: 1.58635e-09, estimated distance to minimum: 5.67479e-19
+                covariance matrix quality: Unknown, matrix was externally provided
+                Status : MINIMIZE=0 HESSE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                a1_dcb    9.6361e-01 +/-  2.77e+06
+                a2_dcb    2.7996e+00 +/-  1.87e+05
+              frac_dcb    9.7322e-01 +/-  4.22e+04
+              mean_dcb    1.2974e+02 +/-  1.96e+06
+                n1_dcb    6.7600e+00 +/-  2.81e+06
+                n2_dcb    4.4461e+00 +/-  1.32e+07
+             sigma_dcb    1.0034e+00 +/-  1.06e+06
+            sigma_gaus    1.6000e+01 +/-  3.56e+03
+
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (DCB)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (Gaus)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormRange' created with bounds [110,170]
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_120_ZH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ZH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ZH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ZH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ZH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ZH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ZH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ZH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ZH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ZH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ZH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ZH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_121_ZH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ZH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ZH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ZH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ZH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ZH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ZH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ZH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ZH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ZH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ZH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ZH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_122_ZH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ZH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ZH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ZH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ZH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ZH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ZH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ZH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ZH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ZH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ZH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ZH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_123_ZH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ZH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ZH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ZH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ZH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ZH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ZH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ZH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ZH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ZH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ZH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ZH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_124_ZH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ZH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ZH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ZH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ZH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ZH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ZH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ZH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ZH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ZH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ZH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ZH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_125_ZH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ZH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ZH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ZH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ZH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ZH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ZH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ZH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ZH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ZH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ZH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ZH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_126_ZH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ZH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ZH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ZH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ZH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ZH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ZH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ZH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ZH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ZH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ZH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ZH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_127_ZH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ZH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ZH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ZH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ZH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ZH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ZH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ZH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ZH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ZH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ZH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ZH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_128_ZH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ZH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ZH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ZH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ZH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ZH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ZH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ZH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ZH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ZH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ZH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ZH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_129_ZH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ZH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ZH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ZH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ZH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ZH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ZH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ZH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ZH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ZH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ZH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ZH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_130_ZH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ZH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ZH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ZH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ZH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ZH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ZH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ZH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ZH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ZH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ZH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ZH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+[92m--> Performing the nominal signal fitting of ttH @ 120GeV[0m
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormRange' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_120_diMu50_VBF) constructing test statistic for sub-range named NormRange
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormalizationRangeForNormRange' created with bounds [110,170]
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'fit_nll_SigPdf_set_120_diMu50_VBF' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_120_diMu50_VBF) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (DCB,Gaus)
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SigPdf) Calculating sum-of-weights-squared correction matrix for covariance matrix
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: deactivating const optimization
+
+  RooFitResult: minimized FCN value: 2.54135e-09, estimated distance to minimum: 1.48715e-09
+                covariance matrix quality: Unknown, matrix was externally provided
+                Status : MINIMIZE=0 HESSE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                a1_dcb    1.0372e+00 +/-  2.07e-01
+                a2_dcb    2.1100e+00 +/-  3.49e-01
+              frac_dcb    9.1523e-01 +/-  3.03e-02
+              mean_dcb    1.1981e+02 +/-  6.04e-02
+                n1_dcb    5.3791e+00 +/-  5.65e+00
+                n2_dcb    3.3337e+00 +/-  3.73e+00
+             sigma_dcb    1.3094e+00 +/-  1.01e-01
+            sigma_gaus    2.6507e+01 +/-  9.01e+00
+
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (DCB)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (Gaus)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+
+[92m--> Performing the nominal signal fitting of ttH @ 125GeV[0m
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormRange' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_125_diMu50_VBF) constructing test statistic for sub-range named NormRange
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormalizationRangeForNormRange' created with bounds [110,170]
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'fit_nll_SigPdf_set_125_diMu50_VBF' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_125_diMu50_VBF) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (DCB,Gaus)
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SigPdf) Calculating sum-of-weights-squared correction matrix for covariance matrix
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: deactivating const optimization
+
+  RooFitResult: minimized FCN value: 2.69006e-09, estimated distance to minimum: 2.45887e-11
+                covariance matrix quality: Unknown, matrix was externally provided
+                Status : MINIMIZE=0 HESSE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                a1_dcb    1.1869e+00 +/-  1.23e-01
+                a2_dcb    2.0794e+00 +/-  4.00e-01
+              frac_dcb    9.5022e-01 +/-  1.96e-02
+              mean_dcb    1.2503e+02 +/-  9.76e-02
+                n1_dcb    5.7558e+00 +/-  1.28e+00
+                n2_dcb    3.2468e+00 +/-  1.28e+00
+             sigma_dcb    1.4196e+00 +/-  8.50e-02
+            sigma_gaus    1.6000e+01 +/-  2.97e-02
+
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (DCB)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (Gaus)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+
+[92m--> Performing the nominal signal fitting of ttH @ 130GeV[0m
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormRange' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_130_diMu50_VBF) constructing test statistic for sub-range named NormRange
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormalizationRangeForNormRange' created with bounds [110,170]
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'fit_nll_SigPdf_set_130_diMu50_VBF' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_130_diMu50_VBF) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (DCB,Gaus)
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SigPdf) Calculating sum-of-weights-squared correction matrix for covariance matrix
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: deactivating const optimization
+
+  RooFitResult: minimized FCN value: 2.69087e-09, estimated distance to minimum: 1.74022e-09
+                covariance matrix quality: Unknown, matrix was externally provided
+                Status : MINIMIZE=0 HESSE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                a1_dcb    1.0302e+00 +/-  1.58e-01
+                a2_dcb    2.0761e+00 +/-  8.61e-01
+              frac_dcb    9.1991e-01 +/-  3.26e-02
+              mean_dcb    1.2986e+02 +/-  7.15e-02
+                n1_dcb    5.2108e+00 +/-  2.58e+00
+                n2_dcb    3.2080e+00 +/-  5.28e+00
+             sigma_dcb    1.3837e+00 +/-  1.38e-01
+            sigma_gaus    2.7296e+01 +/-  1.34e+01
+
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (DCB)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (Gaus)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormRange' created with bounds [110,170]
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_120_ttH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ttH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ttH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ttH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ttH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ttH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ttH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ttH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ttH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ttH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ttH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ttH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_121_ttH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ttH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ttH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ttH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ttH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ttH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ttH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ttH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ttH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ttH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ttH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ttH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_122_ttH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ttH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ttH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ttH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ttH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ttH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ttH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ttH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ttH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ttH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ttH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ttH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_123_ttH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ttH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ttH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ttH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ttH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ttH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ttH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ttH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ttH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ttH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ttH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ttH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_124_ttH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ttH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ttH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ttH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ttH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ttH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ttH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ttH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ttH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ttH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ttH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ttH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_125_ttH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ttH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ttH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ttH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ttH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ttH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ttH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ttH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ttH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ttH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ttH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ttH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_126_ttH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ttH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ttH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ttH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ttH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ttH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ttH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ttH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ttH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ttH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ttH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ttH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_127_ttH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ttH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ttH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ttH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ttH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ttH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ttH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ttH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ttH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ttH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ttH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ttH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_128_ttH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ttH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ttH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ttH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ttH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ttH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ttH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ttH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ttH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ttH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ttH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ttH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_129_ttH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ttH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ttH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ttH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ttH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ttH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ttH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ttH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ttH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ttH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ttH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ttH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_130_ttH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_ttH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_ttH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_ttH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_ttH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_ttH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_ttH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_ttH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_ttH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_ttH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_ttH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_ttH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+[92m--> Performing the nominal signal fitting of bbH @ 120GeV[0m
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormRange' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_120_diMu50_VBF) constructing test statistic for sub-range named NormRange
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormalizationRangeForNormRange' created with bounds [110,170]
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'fit_nll_SigPdf_set_120_diMu50_VBF' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_120_diMu50_VBF) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (DCB,Gaus)
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SigPdf) Calculating sum-of-weights-squared correction matrix for covariance matrix
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: deactivating const optimization
+
+  RooFitResult: minimized FCN value: 3.1778e-09, estimated distance to minimum: 9.40574e-17
+                covariance matrix quality: Unknown, matrix was externally provided
+                Status : MINIMIZE=0 HESSE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                a1_dcb    8.4720e-01 +/-  4.63e+04
+                a2_dcb    7.0248e+00 +/-  4.83e+06
+              frac_dcb    9.8468e-01 +/-  3.25e+03
+              mean_dcb    1.1973e+02 +/-  2.21e+04
+                n1_dcb    1.9208e+00 +/-  1.46e+05
+                n2_dcb    2.6028e+00 +/-  2.59e+14
+             sigma_dcb    4.6749e-01 +/-  3.68e+04
+            sigma_gaus    1.6022e+01 +/-  3.60e+06
+
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (DCB)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_120_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (Gaus)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+
+[92m--> Performing the nominal signal fitting of bbH @ 125GeV[0m
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormRange' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_125_diMu50_VBF) constructing test statistic for sub-range named NormRange
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormalizationRangeForNormRange' created with bounds [110,170]
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'fit_nll_SigPdf_set_125_diMu50_VBF' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_125_diMu50_VBF) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (DCB,Gaus)
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SigPdf) Calculating sum-of-weights-squared correction matrix for covariance matrix
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: deactivating const optimization
+
+  RooFitResult: minimized FCN value: 4.61984e-09, estimated distance to minimum: 3.09169e-05
+                covariance matrix quality: Unknown, matrix was externally provided
+                Status : MINIMIZE=0 HESSE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                a1_dcb    5.2482e-01 +/-  9.62e-01
+                a2_dcb    1.1533e+01 +/-  5.81e+18
+              frac_dcb    9.8999e-01 +/-  3.10e+00
+              mean_dcb    1.2445e+02 +/-  4.70e-03
+                n1_dcb    1.4600e+00 +/-  7.69e-01
+                n2_dcb    2.9501e+00 +/-  1.40e+00
+             sigma_dcb    1.0010e-01 +/-  1.13e+00
+            sigma_gaus    8.0674e+01 +/-  2.69e+04
+
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (DCB)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_125_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (Gaus)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+
+[92m--> Performing the nominal signal fitting of bbH @ 130GeV[0m
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormRange' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_130_diMu50_VBF) constructing test statistic for sub-range named NormRange
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormalizationRangeForNormRange' created with bounds [110,170]
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'fit_nll_SigPdf_set_130_diMu50_VBF' created with bounds [110,170]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_SigPdf_set_130_diMu50_VBF) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (DCB,Gaus)
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(SigPdf) Calculating sum-of-weights-squared correction matrix for covariance matrix
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: deactivating const optimization
+
+  RooFitResult: minimized FCN value: 2.29561e-09, estimated distance to minimum: 2.4169e-19
+                covariance matrix quality: Unknown, matrix was externally provided
+                Status : MINIMIZE=0 HESSE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+                a1_dcb    1.2726e+00 +/-  5.71e+04
+                a2_dcb    2.1732e+00 +/-  3.51e+05
+              frac_dcb    9.6433e-01 +/-  2.05e+04
+              mean_dcb    1.2991e+02 +/-  1.14e+04
+                n1_dcb    6.1813e+00 +/-  1.48e+06
+                n2_dcb    3.5837e+00 +/-  1.33e+06
+             sigma_dcb    1.1883e+00 +/-  1.69e+04
+            sigma_gaus    3.2563e+01 +/-  3.05e+07
+
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (DCB)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f was fitted in a subrange and no explicit Range() and NormRange() was specified. Plotting / normalising in fit range. To override, do one of the following
+	- Clear the automatic fit range attribute: <pdf>.setStringAttribute("fitrange", nullptr);
+	- Explicitly specify the plotting range: Range("<rangeName>").
+	- Explicitly specify where to compute the normalisation: NormRange("<rangeName>").
+	The default (full) range can be denoted with Range("") / NormRange("").
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) only plotting range 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_SigPdf_set_130_diMu50_VBF'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) directly selected PDF components: (Gaus)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(SigPdf) indirectly selected PDF components: ()
+
+[#1] INFO:Eval -- RooRealVar::setRange(CMS_higgs_mass) new range named 'NormRange' created with bounds [110,170]
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_120_bbH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_bbH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_bbH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_bbH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_bbH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_bbH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_bbH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_bbH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_bbH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_bbH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_bbH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_bbH_120_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_121_bbH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_bbH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_bbH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_bbH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_bbH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_bbH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_bbH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_bbH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_bbH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_bbH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_bbH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_bbH_121_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_122_bbH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_bbH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_bbH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_bbH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_bbH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_bbH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_bbH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_bbH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_bbH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_bbH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_bbH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_bbH_122_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_123_bbH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_bbH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_bbH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_bbH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_bbH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_bbH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_bbH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_bbH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_bbH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_bbH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_bbH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_bbH_123_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_124_bbH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_bbH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_bbH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_bbH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_bbH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_bbH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_bbH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_bbH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_bbH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_bbH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_bbH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_bbH_124_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_125_bbH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_bbH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_bbH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_bbH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_bbH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_bbH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_bbH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_bbH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_bbH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_bbH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_bbH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_bbH_125_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_126_bbH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_bbH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_bbH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_bbH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_bbH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_bbH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_bbH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_bbH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_bbH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_bbH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_bbH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_bbH_126_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_127_bbH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_bbH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_bbH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_bbH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_bbH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_bbH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_bbH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_bbH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_bbH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_bbH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_bbH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_bbH_127_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_128_bbH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_bbH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_bbH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_bbH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_bbH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_bbH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_bbH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_bbH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_bbH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_bbH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_bbH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_bbH_128_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_129_bbH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_bbH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_bbH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_bbH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_bbH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_bbH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_bbH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_bbH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_bbH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_bbH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_bbH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_bbH_129_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield
+INFO: Save the final signal model in /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/WS/Interpolation/2017/CMS_HLLG_Interp_130_bbH_2017_diMu50_VBF.root
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooAddPdf::SigPdf_bbH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooDoubleCB::DCB_bbH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::CMS_higgs_mass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::mean_dcb_bbH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_dcb_bbH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a1_dcb_bbH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n1_dcb_bbH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::a2_dcb_bbH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::n2_dcb_bbH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooGaussian::Gaus_bbH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::sigma_gaus_bbH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::frac_dcb_bbH_130_diMu50_VBF_2017
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wsig) importing RooRealVar::ExpYield

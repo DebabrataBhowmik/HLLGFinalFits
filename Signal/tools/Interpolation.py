@@ -2,8 +2,8 @@ import sys, os
 import ROOT
 import numpy as np
 from CMS_lumi import CMS_lumi
-from commonObjects import decayMode
-from commonTools import rooiter
+from commonObjects import decayMode, massText, decayText
+from commonTools import rooiter, cprint
 from collections import OrderedDict as od
 
 class Interpolator:
@@ -72,15 +72,21 @@ class Interpolator:
         for imass, mass in enumerate(self.xmass_intp):
             Vars = od()
             for p in self.Pars.keys():
-                Vars[p] = ROOT.RooRealVar(p, p, self.Pars[p][imass])
+                #! NOTE: The var name should be unique for each category.
+                var_name = "{}_{}_{}_{}_{}".format(p, self.proc, mass, self.cat, self.year)
+                Vars[p] = ROOT.RooRealVar(var_name, var_name, self.Pars[p][imass])
                 Vars[p].setError(self.ParsErr[p][imass])
             if self.useDCB:
-                dcbPdf = ROOT.RooDoubleCB("SigPdf", "SigPdf", self.xvar, Vars["mean_dcb"], Vars["sigma_dcb"], Vars["a1_dcb"], Vars["n1_dcb"], Vars["a2_dcb"], Vars["n2_dcb"])
+                SigPdf_name = "SigPdf_{}_{}_{}_{}".format(self.proc, mass, self.cat, self.year)
+                dcbPdf = ROOT.RooDoubleCB(SigPdf_name, SigPdf_name, self.xvar, Vars["mean_dcb"], Vars["sigma_dcb"], Vars["a1_dcb"], Vars["n1_dcb"], Vars["a2_dcb"], Vars["n2_dcb"])
                 self.FinalPdfs[mass] = dcbPdf
             else:
-                dcbPdf = ROOT.RooDoubleCB("DCB", "DCB", self.xvar, Vars["mean_dcb"], Vars["sigma_dcb"], Vars["a1_dcb"], Vars["n1_dcb"], Vars["a2_dcb"], Vars["n2_dcb"])
-                gauPdf = ROOT.RooGaussian("Gaus", "Gaus", self.xvar, Vars["mean_dcb"], Vars["sigma_gaus"])
-                self.FinalPdfs[mass] = ROOT.RooAddPdf("SigPdf", "SigPdf", dcbPdf, gauPdf, Vars["frac_dcb"])
+                dcbPdf_name = "DCB_{}_{}_{}_{}".format(self.proc, mass, self.cat, self.year)
+                gauPdf_name = "Gaus_{}_{}_{}_{}".format(self.proc, mass, self.cat, self.year)
+                SigPdf_name = "SigPdf_{}_{}_{}_{}".format(self.proc, mass, self.cat, self.year)
+                dcbPdf = ROOT.RooDoubleCB(dcbPdf_name, dcbPdf_name, self.xvar, Vars["mean_dcb"], Vars["sigma_dcb"], Vars["a1_dcb"], Vars["n1_dcb"], Vars["a2_dcb"], Vars["n2_dcb"])
+                gauPdf = ROOT.RooGaussian(gauPdf_name, gauPdf_name, self.xvar, Vars["mean_dcb"], Vars["sigma_gaus"])
+                self.FinalPdfs[mass] = ROOT.RooAddPdf(SigPdf_name, SigPdf_name, dcbPdf, gauPdf, Vars["frac_dcb"])
 
             if (mass != 120) and (mass != 125) and (mass != 130):
                 self.FinalPdfs[mass].plotOn(
@@ -116,7 +122,7 @@ class Interpolator:
                 if not os.path.exists(outWSDir):
                     os.system("mkdir -p %s" %outWSDir)
                 outWSName = "{}/CMS_HLLG_Interp_{}_{}_{}_{}.root".format(outWSDir, mass, self.proc, self.year, self.cat)
-                print("INFO: Save the final signal model in {}".format(outWSName))
+                cprint("INFO: Save the final signal model in {}".format(outWSName))
                 fws = ROOT.TFile(outWSName, "RECREATE")
                 fws.cd()
 
@@ -149,11 +155,21 @@ class Interpolator:
                     # create RooFormulaVars
                     # * new_mean_dcb = mean_dcb * scale_var
                     # * new_sigma_dcb = sigma_dcb * resol_var
-                    ws.factory("prod::new_mean_dcb(mean_dcb, {})".format(scale_var))
-                    ws.factory("prod::new_sigma_dcb(sigma_dcb, {})".format(resol_var))
+                    mean_dcb_name = "mean_dcb_{}_{}_{}_{}".format(self.proc, mass, self.cat, self.year)
+                    new_mean_dcb_name = "new_mean_dcb_{}_{}_{}_{}".format(self.proc, mass, self.cat, self.year)
+                    
+                    sigma_dcb_name = "sigma_dcb_{}_{}_{}_{}".format(self.proc, mass, self.cat, self.year)
+                    new_sigma_dcb_name = "new_sigma_dcb_{}_{}_{}_{}".format(self.proc, mass, self.cat, self.year)
+                    
+                    ws.factory("prod::{}({}, 1+{})".format(new_mean_dcb_name, mean_dcb_name, scale_var))
+                    ws.factory("prod::{}({}, 1+{})".format(new_sigma_dcb_name, sigma_dcb_name, resol_var))
 
                     # modify the final models
-                    ws.factory("EDIT:NewSigPdf(SigPdf, mean_dcb=new_mean_dcb, sigma_dcb=new_sigma_dcb)")
+                    
+                    SigPdf_name = "SigPdf_{}_{}_{}_{}".format(self.proc, mass, self.cat, self.year)
+                    NewSigPdf_name = "NewSigPdf_{}_{}_{}_{}".format(self.proc, mass, self.cat, self.year)
+                    # ws.factory("EDIT:NewSigPdf(SigPdf, mean_dcb=new_mean_dcb, sigma_dcb=new_sigma_dcb)")
+                    ws.factory(f"EDIT:{NewSigPdf_name}({SigPdf_name}, {mean_dcb_name}={new_mean_dcb_name}, {sigma_dcb_name}={new_sigma_dcb_name})")
 
                 ws.Write()
                 fws.Close()
@@ -161,7 +177,7 @@ class Interpolator:
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     # xName: x-axis label
     # outName: path to save the plot
-    def visualize(self, xName, outName):
+    def visualize(self, outName):
         # set up the canvas to draw
         # self.xframe.SetAxisRange(xRange[0], xRange[1], "X")
         self.xframe.SetTitle("")
@@ -171,7 +187,7 @@ class Interpolator:
         self.xframe.GetXaxis().SetLabelSize(0.04)
         self.xframe.GetXaxis().SetLabelOffset(0.02)
         self.xframe.GetXaxis().SetTitleOffset(1.4)
-        self.xframe.GetXaxis().SetTitle(xName)
+        self.xframe.GetXaxis().SetTitle(massText)
 
         self.xframe.GetYaxis().SetTitle("Signal shape")
         self.xframe.GetYaxis().SetNdivisions(510)
@@ -208,7 +224,7 @@ class Interpolator:
         leg1.AddEntry(self.xframe.findObject("130"), "PDF-130 GeV ", "l")
         leg1.Draw()
 
-        CMS_lumi(c, 5, 10, "", self.year, True, "Simulation", "H #rightarrow #gamma*#gamma #rightarrow ee#gamma", "")
+        CMS_lumi(c, 5, 10, "", self.year, True, "Simulation", decayText, "")
 
         # create the output dir
         outDir = os.path.dirname(outName)

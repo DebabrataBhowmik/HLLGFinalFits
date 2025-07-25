@@ -15,7 +15,8 @@ def get_parser():
     parser.add_argument("-c",   "--category",        help="RECO category",                                           default="",     type=str)
     parser.add_argument("-y",   "--year",            help="year",                                                    default="",     type=str)
     parser.add_argument("-i",   "--inputWSDir",      help="Input WS directory",                                      default="",     type=str)
-    parser.add_argument("-tr",  "--thresholdRate",   help="Reject mean variations if larger than thresholdRate",     default=0.5,      type=float)
+    parser.add_argument("-tr",  "--thresholdRate",   help="Reject mean variations if larger than thresholdRate",     default=0.5,   type=float)
+    parser.add_argument("-pn",  "--preventNegative", help="set the negative bin content of mass histograms to 0.",   default=False,action="store_true")
 
     return parser
 
@@ -46,6 +47,15 @@ def getDataHists(_ws, _nominalDataName, _sname, _var):
     ds_nominal.fillHistogram(_hists["nominal"], ROOT.RooArgList(_var))
     dh_up.fillHistogram(_hists["up"], ROOT.RooArgList(_var))
     dh_do.fillHistogram(_hists["do"], ROOT.RooArgList(_var))
+    if args.preventNegative: # set the negative bin content to 0.
+        for b in range(_hists["nominal"].GetNbinsX()+1): 
+            if _hists["nominal"].GetBinContent(b+1) < 0:
+                _hists["nominal"].SetBinContent(b+1, 0)
+            if _hists["up"].GetBinContent(b+1) < 0:
+                _hists["up"].SetBinContent(b+1, 0)
+            if _hists["do"].GetBinContent(b+1) < 0:
+                _hists["do"].SetBinContent(b+1, 0)
+
 
     return _hists
 
@@ -54,7 +64,10 @@ def getDataHists(_ws, _nominalDataName, _sname, _var):
 def getRateVar(_hists):
     rate, rateVar = {}, {}   
     for htype, h in _hists.items():
-        rate[htype] = h.Integral()
+        rate[htype] = h.Integral() if h.Integral() > 0. else 0.
+    
+    if rate["nominal"] == 0.: 
+        return 0.
     
     for htype in ["up", "do"]:
         rateVar[htype] = (rate[htype] - rate["nominal"]) / rate["nominal"]
@@ -69,12 +82,13 @@ def getRateVar(_hists):
 def main(mass):
     global rate_variations
     rate_variations = [
-        "JEC",
-        "JER",
-        "PhoNoR9Corr",
-        "weight_EleID",
+#        "JEC",
+#        "JER",
+#        "PhoNoR9Corr",
+        "weight_MuID",
         "weight_HLT",
-        "weight_L1Pre",
+        "weight_L1PF",
+        "weight_MuPF",
         "weight_PhoID",
         "weight_puwei"
     ]
@@ -82,7 +96,7 @@ def main(mass):
     # Define dataFrame
     columns_data = ["proc", "cat", "mass", "year", "inputWSFile", "nominalDataName"]
     for s in rate_variations:
-        columns_data.append(s)
+       columns_data.append(s)
     data = pd.DataFrame(columns=columns_data)
 
     # Loop over processes and add row to dataframe
@@ -106,8 +120,11 @@ def main(mass):
         
         # Add values to dataFrame
         for s in rate_variations:
-            hists = getDataHists(inputWS, r["nominalDataName"], s, inputWS.var("CMS_higgs_mass"))
-            _rateVar = getRateVar(hists)
+            if "Resolved" in r["cat"] and (s == "JER" or s == "JEC"):
+                _rateVar = 0.
+            else:
+                hists = getDataHists(inputWS, r["nominalDataName"], s, inputWS.var("CMS_higgs_mass"))
+                _rateVar = getRateVar(hists)
             data.at[ir, s] = _rateVar
         # close file
         f.Close()
@@ -160,4 +177,7 @@ if __name__ == "__main__" :
         df_list.append(df)
 
     df_mass = pd.concat(df_list, ignore_index=True, axis=0, sort=False)
+    cols = [i for i in list(df_mass.columns) if i != "inputWSFile"]
+    print(df_mass[cols].to_string())
+    
     calcFactory(df_mass)

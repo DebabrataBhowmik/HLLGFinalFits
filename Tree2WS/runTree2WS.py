@@ -16,7 +16,7 @@ def get_parser():
     parser.add_argument("-y",  "--year",            help="Year [2016, 2017, 2018]",                                     default="all", type=str)
     parser.add_argument("-m",  "--mass",            help="mass point [120, 125, 130]",                                  default="all", type=str)
     parser.add_argument("-p",  "--productionMode",  help="Production mode [ggH, VBF, WH, ZH, ttH, bbH]",                default="all", type=str)
-    parser.add_argument("-ds", "--doSystematics",   help="Add systematics datasets to output WS",                       default=False, action="store_true")
+    parser.add_argument("-ds", "--doSystematics",   help="Add systematics datasets to output WS",                       default=True, action="store_true")
     parser.add_argument("-n",  "--nCPUs",           help="Number of CPUs used to convert tree to ws(default: 10)",      default=10,    type=int)
     return parser
 

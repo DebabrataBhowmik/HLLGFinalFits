@@ -1,0 +1,38 @@
+import os
+import numpy as np
+from ROOT import gSystem
+from contextlib import contextmanager
+from commonObjects import category__
+from commonTools import color
+
+# https://stackoverflow.com/a/24176022
+@contextmanager
+def cd(newdir):
+    prevdir = os.getcwd()
+    os.chdir(os.path.expanduser(newdir))
+    try:
+        yield
+    finally:
+        os.chdir(prevdir)
+
+outdir = "."
+indir="../cards"
+#with cd(outdir):
+opt = "comb"
+#    mass_interp = np.linspace(120, 130, 11, endpoint=True).astype(int)
+#    for mass in mass_interp:
+mass=125
+cards = ""
+for cat in category__.keys():
+    if cat == "diMu50_VBF":  # This part is modified on 23rd July 2025 to ommit VBF_diMU50 as that seems not to work
+        continue             
+    cards += "{}/{}=datacard_hmmg_runII_{}_{}.txt ".format(indir, cat, cat, mass)
+    # cards += "datacard_hmmg_runII_{}_{}.txt ".format(cat, mass)
+            
+card_comb = "datacard_hmmg_runII_comb_{}.txt".format(mass)
+# print("---> merged card: ./cards/{}".format(card_comb))
+cmd = "combineCards.py {} > {} ".format(cards, card_comb)
+print(color.GREEN+"Execution: "+color.END+cmd)
+print(color.GREEN+"---> merged card: {}/{}".format(outdir, card_comb)+color.END)
+gSystem.Exec("combineCards.py {} > {} ".format(cards, card_comb))
+print(" ")

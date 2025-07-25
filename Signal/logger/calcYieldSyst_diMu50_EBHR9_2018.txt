@@ -1,0 +1,38 @@
+ --> Processing ( ggH, diMu50_EBHR9, 120, 2018 ) rate uncertainties
+ --> Processing ( VBF, diMu50_EBHR9, 120, 2018 ) rate uncertainties
+ --> Processing (  WH, diMu50_EBHR9, 120, 2018 ) rate uncertainties
+ --> Processing (  ZH, diMu50_EBHR9, 120, 2018 ) rate uncertainties
+ --> Processing ( ttH, diMu50_EBHR9, 120, 2018 ) rate uncertainties
+ --> Processing ( bbH, diMu50_EBHR9, 120, 2018 ) rate uncertainties
+ --> Processing ( ggH, diMu50_EBHR9, 125, 2018 ) rate uncertainties
+ --> Processing ( VBF, diMu50_EBHR9, 125, 2018 ) rate uncertainties
+ --> Processing (  WH, diMu50_EBHR9, 125, 2018 ) rate uncertainties
+ --> Processing (  ZH, diMu50_EBHR9, 125, 2018 ) rate uncertainties
+ --> Processing ( ttH, diMu50_EBHR9, 125, 2018 ) rate uncertainties
+ --> Processing ( bbH, diMu50_EBHR9, 125, 2018 ) rate uncertainties
+ --> Processing ( ggH, diMu50_EBHR9, 130, 2018 ) rate uncertainties
+ --> Processing ( VBF, diMu50_EBHR9, 130, 2018 ) rate uncertainties
+ --> Processing (  WH, diMu50_EBHR9, 130, 2018 ) rate uncertainties
+ --> Processing (  ZH, diMu50_EBHR9, 130, 2018 ) rate uncertainties
+ --> Processing ( ttH, diMu50_EBHR9, 130, 2018 ) rate uncertainties
+ --> Processing ( bbH, diMu50_EBHR9, 130, 2018 ) rate uncertainties
+   proc           cat mass  year       nominalDataName weight_MuID weight_HLT weight_L1PF weight_MuPF weight_PhoID weight_puwei
+0   ggH  diMu50_EBHR9  120  2018  set_120_diMu50_EBHR9    0.005625   0.028635         0.0         0.0     0.016824     0.009485
+1   VBF  diMu50_EBHR9  120  2018  set_120_diMu50_EBHR9    0.005691   0.029249         0.0         0.0     0.016825     0.007745
+2    WH  diMu50_EBHR9  120  2018  set_120_diMu50_EBHR9    0.005525   0.029193         0.0         0.0     0.016824     0.008353
+3    ZH  diMu50_EBHR9  120  2018  set_120_diMu50_EBHR9    0.005563   0.029018         0.0         0.0     0.016824     0.005363
+4   ttH  diMu50_EBHR9  120  2018  set_120_diMu50_EBHR9    0.005521    0.02919         0.0         0.0     0.016824      0.00393
+5   bbH  diMu50_EBHR9  120  2018  set_120_diMu50_EBHR9    0.005657   0.028618         0.0         0.0     0.016824     0.005507
+6   ggH  diMu50_EBHR9  125  2018  set_125_diMu50_EBHR9    0.005458   0.028607         0.0         0.0     0.016825     0.006196
+7   VBF  diMu50_EBHR9  125  2018  set_125_diMu50_EBHR9    0.005409   0.029244         0.0         0.0     0.016824     0.010785
+8    WH  diMu50_EBHR9  125  2018  set_125_diMu50_EBHR9    0.005364   0.029045         0.0         0.0     0.016824     0.010755
+9    ZH  diMu50_EBHR9  125  2018  set_125_diMu50_EBHR9    0.005426   0.029063         0.0         0.0     0.016823     0.002275
+10  ttH  diMu50_EBHR9  125  2018  set_125_diMu50_EBHR9    0.005326   0.029038         0.0         0.0     0.016824     0.006679
+11  bbH  diMu50_EBHR9  125  2018  set_125_diMu50_EBHR9    0.005636   0.028462         0.0         0.0     0.016824     0.010388
+12  ggH  diMu50_EBHR9  130  2018  set_130_diMu50_EBHR9    0.005384   0.028326         0.0         0.0     0.016824     0.005838
+13  VBF  diMu50_EBHR9  130  2018  set_130_diMu50_EBHR9    0.005355   0.029042         0.0         0.0     0.016825     0.002251
+14   WH  diMu50_EBHR9  130  2018  set_130_diMu50_EBHR9    0.005307   0.028895         0.0         0.0     0.016824     0.009347
+15   ZH  diMu50_EBHR9  130  2018  set_130_diMu50_EBHR9    0.005255     0.0289         0.0         0.0     0.016824     0.004632
+16  ttH  diMu50_EBHR9  130  2018  set_130_diMu50_EBHR9    0.005037   0.028887         0.0         0.0     0.016824     0.001172
+17  bbH  diMu50_EBHR9  130  2018  set_130_diMu50_EBHR9    0.005549   0.028371         0.0         0.0     0.016824     0.006256
+ --> Successfully saved rate systematics as pkl file: /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/syst/rate_syst_diMu50_EBHR9_2018.pkl

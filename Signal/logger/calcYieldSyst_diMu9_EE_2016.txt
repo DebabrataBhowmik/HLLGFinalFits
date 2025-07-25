@@ -1,0 +1,38 @@
+ --> Processing ( ggH, diMu9_EE, 120, 2016 ) rate uncertainties
+ --> Processing ( VBF, diMu9_EE, 120, 2016 ) rate uncertainties
+ --> Processing (  WH, diMu9_EE, 120, 2016 ) rate uncertainties
+ --> Processing (  ZH, diMu9_EE, 120, 2016 ) rate uncertainties
+ --> Processing ( ttH, diMu9_EE, 120, 2016 ) rate uncertainties
+ --> Processing ( bbH, diMu9_EE, 120, 2016 ) rate uncertainties
+ --> Processing ( ggH, diMu9_EE, 125, 2016 ) rate uncertainties
+ --> Processing ( VBF, diMu9_EE, 125, 2016 ) rate uncertainties
+ --> Processing (  WH, diMu9_EE, 125, 2016 ) rate uncertainties
+ --> Processing (  ZH, diMu9_EE, 125, 2016 ) rate uncertainties
+ --> Processing ( ttH, diMu9_EE, 125, 2016 ) rate uncertainties
+ --> Processing ( bbH, diMu9_EE, 125, 2016 ) rate uncertainties
+ --> Processing ( ggH, diMu9_EE, 130, 2016 ) rate uncertainties
+ --> Processing ( VBF, diMu9_EE, 130, 2016 ) rate uncertainties
+ --> Processing (  WH, diMu9_EE, 130, 2016 ) rate uncertainties
+ --> Processing (  ZH, diMu9_EE, 130, 2016 ) rate uncertainties
+ --> Processing ( ttH, diMu9_EE, 130, 2016 ) rate uncertainties
+ --> Processing ( bbH, diMu9_EE, 130, 2016 ) rate uncertainties
+   proc       cat mass  year   nominalDataName weight_MuID weight_HLT weight_L1PF weight_MuPF weight_PhoID weight_puwei
+0   ggH  diMu9_EE  120  2016  set_120_diMu9_EE    0.009406        0.5    0.009594         0.0     0.011773     0.006333
+1   VBF  diMu9_EE  120  2016  set_120_diMu9_EE    0.009491        0.5    0.011386         0.0     0.011569     0.010726
+2    WH  diMu9_EE  120  2016  set_120_diMu9_EE    0.009456        0.5    0.012565         0.0     0.011643     0.006274
+3    ZH  diMu9_EE  120  2016  set_120_diMu9_EE    0.009474        0.5    0.012347         0.0     0.011401     0.005018
+4   ttH  diMu9_EE  120  2016  set_120_diMu9_EE    0.009262        0.5    0.013532         0.0     0.012095     0.004779
+5   bbH  diMu9_EE  120  2016  set_120_diMu9_EE    0.009392        0.5    0.008789         0.0     0.011462     0.014321
+6   ggH  diMu9_EE  125  2016  set_125_diMu9_EE    0.009305        0.5    0.009686         0.0     0.011724     0.007017
+7   VBF  diMu9_EE  125  2016  set_125_diMu9_EE    0.009391        0.5    0.012022         0.0     0.011511     0.002549
+8    WH  diMu9_EE  125  2016  set_125_diMu9_EE    0.009446        0.5     0.01241         0.0     0.011365     0.005119
+9    ZH  diMu9_EE  125  2016  set_125_diMu9_EE     0.00942        0.5    0.012563         0.0     0.011486     0.012049
+10  ttH  diMu9_EE  125  2016  set_125_diMu9_EE     0.00922        0.5    0.014137         0.0     0.011258     0.007178
+11  bbH  diMu9_EE  125  2016  set_125_diMu9_EE    0.009411        0.5     0.01002         0.0     0.011821     0.006654
+12  ggH  diMu9_EE  130  2016  set_130_diMu9_EE    0.009227        0.5    0.009782         0.0      0.01171     0.009553
+13  VBF  diMu9_EE  130  2016  set_130_diMu9_EE    0.009367        0.5    0.012419         0.0     0.011669     0.006556
+14   WH  diMu9_EE  130  2016  set_130_diMu9_EE    0.009373        0.5    0.013199         0.0     0.011195      0.00809
+15   ZH  diMu9_EE  130  2016  set_130_diMu9_EE    0.009288        0.5    0.012634         0.0     0.011432     0.009192
+16  ttH  diMu9_EE  130  2016  set_130_diMu9_EE     0.00906        0.5    0.014282         0.0     0.012296     0.004186
+17  bbH  diMu9_EE  130  2016  set_130_diMu9_EE    0.009237        0.5    0.008978         0.0     0.011569     0.001485
+ --> Successfully saved rate systematics as pkl file: /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/syst/rate_syst_diMu9_EE_2016.pkl

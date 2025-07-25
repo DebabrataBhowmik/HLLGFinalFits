@@ -1,0 +1,9 @@
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> method used is Significance
+Flushing file cache of size 250
+Flushing file cache of size 250
+
+ -- Significance -- 
+Significance: 1.72734
+Done in 0.88 min (cpu), 0.89 min (real)

@@ -1,0 +1,38 @@
+ --> Processing ( ggH, diMu50_EE, 120, 2017 ) rate uncertainties
+ --> Processing ( VBF, diMu50_EE, 120, 2017 ) rate uncertainties
+ --> Processing (  WH, diMu50_EE, 120, 2017 ) rate uncertainties
+ --> Processing (  ZH, diMu50_EE, 120, 2017 ) rate uncertainties
+ --> Processing ( ttH, diMu50_EE, 120, 2017 ) rate uncertainties
+ --> Processing ( bbH, diMu50_EE, 120, 2017 ) rate uncertainties
+ --> Processing ( ggH, diMu50_EE, 125, 2017 ) rate uncertainties
+ --> Processing ( VBF, diMu50_EE, 125, 2017 ) rate uncertainties
+ --> Processing (  WH, diMu50_EE, 125, 2017 ) rate uncertainties
+ --> Processing (  ZH, diMu50_EE, 125, 2017 ) rate uncertainties
+ --> Processing ( ttH, diMu50_EE, 125, 2017 ) rate uncertainties
+ --> Processing ( bbH, diMu50_EE, 125, 2017 ) rate uncertainties
+ --> Processing ( ggH, diMu50_EE, 130, 2017 ) rate uncertainties
+ --> Processing ( VBF, diMu50_EE, 130, 2017 ) rate uncertainties
+ --> Processing (  WH, diMu50_EE, 130, 2017 ) rate uncertainties
+ --> Processing (  ZH, diMu50_EE, 130, 2017 ) rate uncertainties
+ --> Processing ( ttH, diMu50_EE, 130, 2017 ) rate uncertainties
+ --> Processing ( bbH, diMu50_EE, 130, 2017 ) rate uncertainties
+   proc        cat mass  year    nominalDataName weight_MuID weight_HLT weight_L1PF weight_MuPF weight_PhoID weight_puwei
+0   ggH  diMu50_EE  120  2017  set_120_diMu50_EE    0.008293    0.11248    0.012275         0.0     0.008186     0.017151
+1   VBF  diMu50_EE  120  2017  set_120_diMu50_EE    0.008134   0.115454    0.014986         0.0     0.007884     0.003359
+2    WH  diMu50_EE  120  2017  set_120_diMu50_EE    0.008111   0.114716    0.016869         0.0     0.007969     0.008531
+3    ZH  diMu50_EE  120  2017  set_120_diMu50_EE    0.008126   0.115314    0.014803         0.0     0.008396     0.008838
+4   ttH  diMu50_EE  120  2017  set_120_diMu50_EE    0.008269    0.11655    0.015696         0.0     0.008087     0.016029
+5   bbH  diMu50_EE  120  2017  set_120_diMu50_EE    0.008302   0.113351    0.013614         0.0     0.008552     0.019832
+6   ggH  diMu50_EE  125  2017  set_125_diMu50_EE     0.00827   0.111854    0.012372         0.0     0.008185     0.008648
+7   VBF  diMu50_EE  125  2017  set_125_diMu50_EE    0.008196   0.113359     0.01426         0.0     0.008323     0.019955
+8    WH  diMu50_EE  125  2017  set_125_diMu50_EE     0.00814   0.114038    0.016781         0.0     0.008321     0.012841
+9    ZH  diMu50_EE  125  2017  set_125_diMu50_EE    0.008164   0.114241    0.016034         0.0     0.008148     0.006198
+10  ttH  diMu50_EE  125  2017  set_125_diMu50_EE    0.008366    0.11396    0.019435         0.0     0.008329     0.014708
+11  bbH  diMu50_EE  125  2017  set_125_diMu50_EE    0.008248   0.112278    0.010372         0.0     0.008323     0.011234
+12  ggH  diMu50_EE  130  2017  set_130_diMu50_EE    0.008246   0.110792    0.012397         0.0     0.008136     0.011552
+13  VBF  diMu50_EE  130  2017  set_130_diMu50_EE    0.008118   0.112825    0.016343         0.0     0.008599     0.002431
+14   WH  diMu50_EE  130  2017  set_130_diMu50_EE    0.008068   0.112908    0.015967         0.0     0.008432     0.020775
+15   ZH  diMu50_EE  130  2017  set_130_diMu50_EE    0.008131   0.113614    0.014037         0.0     0.008122     0.017376
+16  ttH  diMu50_EE  130  2017  set_130_diMu50_EE    0.008335   0.114185    0.021183         0.0     0.008638     0.004556
+17  bbH  diMu50_EE  130  2017  set_130_diMu50_EE    0.008391   0.110862    0.010868         0.0     0.008179     0.002986
+ --> Successfully saved rate systematics as pkl file: /home/dbhowmik/work/HiggsDalitz/HLLGFinalFits/CMSSW_11_3_4/src/HLLGFinalFits/Signal/syst/rate_syst_diMu50_EE_2017.pkl

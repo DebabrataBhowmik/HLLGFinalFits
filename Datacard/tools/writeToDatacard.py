@@ -133,7 +133,7 @@ class DCWriter:
                     continue
                 col_name = "{}_{}_{}_{}_{}".format(s["name"], r["procOriginal"], r["mass"], self.cat, r["year"])
                 # self.fout.write("{0:{sp0}}{1:<7}{2:<5}{3:<12}\n".format(col_name, "param", str(1), str(round(r[s["name"]], 7)), sp0=self.space0+self.space1+self.space2))
-                self.fout.write("{0:{sp0}}{1:<7}{2:<5}{3:<12}\n".format(col_name, "param", str(1), str(round(r[s["name"]], 7)), sp0=self.space0+self.space1+self.space2))
+                self.fout.write("{0:{sp0}}{1:<7}{2:<5}{3:<12}\n".format(col_name, "param", str(1), str(round(r[s["name"]], 5)), sp0=self.space0+self.space1+self.space2))
         # if s["prior"] == "param":
         #     for proc in self.df["procOriginal"].unique():
         #         if ((proc == "data_obs") or (proc == "bkg_mass")):
